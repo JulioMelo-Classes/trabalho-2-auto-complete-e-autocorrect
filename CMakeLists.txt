@@ -19,6 +19,7 @@ target_link_libraries(words_complete_correct_extra ncurses)
 #sem ncurses
 add_executable(words_complete_correct
                src/main.cpp
+               src/Processamento.cpp
               )
               
 target_include_directories(words_complete_correct PUBLIC

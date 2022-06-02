@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/words_complete_correct.dir/src/main.cpp.o CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o  -o words_complete_correct 
