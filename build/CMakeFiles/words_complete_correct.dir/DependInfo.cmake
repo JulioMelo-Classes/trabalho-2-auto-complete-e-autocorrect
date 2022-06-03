@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp" "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o"
-  "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/main.cpp" "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir/src/main.cpp.o"
+  "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp" "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o"
+  "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main.cpp" "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

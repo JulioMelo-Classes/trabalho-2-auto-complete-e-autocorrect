@@ -1,5 +1,5 @@
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct_extra.dir
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.dir
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct_extra.dir
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.dir

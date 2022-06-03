@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes
+# Install script for directory: /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

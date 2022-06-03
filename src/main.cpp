@@ -8,11 +8,12 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    Processamento Processamento(argv[1], argv[2], argv[3]);
-    string entrada;
-    cout << ">>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar):";
-    getline(cin, entrada);
-    cout << entrada;
+    Processamento Processamento(argv[1]);
     Processamento.leitura_arquivos();
+    Processamento.ordenacao();
+    string entrada;
+    cout << ">>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ";
+    getline(cin, entrada);
+    Processamento.busca(entrada);
     return 0;
-}
+};

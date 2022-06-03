@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build.rule"
+			"file" : "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build.rule"
 		}
 	],
 	"target" : 
