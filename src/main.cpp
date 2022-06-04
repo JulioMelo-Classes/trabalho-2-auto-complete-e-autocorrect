@@ -7,6 +7,7 @@
 #include "Autocomplete.hpp"
 #include "Ordenacao.hpp"
 #include "Interface.hpp"
+#include "Autocorrect.hpp"
 
 using namespace std;
 
@@ -22,7 +23,9 @@ int main(int argc, char *argv[]){
         entrada[ii] = toupper(entrada[ii]);
     }
     Autocomplete Autocomplete(entrada);
+    Autocorrect Autocorrect(entrada.size());
     Autocomplete.auto_complete(ord.ordenacao_auto_complete(Processamento.get_dados()));
-    inter.impressao_autocomplete(ord.ordenacao_peso(Autocomplete.get_dados_com_prefixo()));
+    //inter.impressao_autocomplete(ord.ordenacao_peso(Autocomplete.get_dados_com_prefixo()));
+    Autocorrect.auto_correct(ord.ordenacao_auto_correct(Processamento.get_dados()));
     return 0;
 };

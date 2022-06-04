@@ -21,3 +21,12 @@ std::vector<std::pair<int, std::string>> Ordenacao::ordenacao_peso(std::vector<s
     //sort(dados.begin(), dados.end(), greater<int>());
     return dados;
 };
+
+std::vector<std::pair<int, std::string>> Ordenacao::ordenacao_auto_correct(std::vector<std::pair<int, std::string>> dados){
+    sort(dados.begin(), dados.end(),
+            [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); });
+    return dados;
+    /*for(auto pp : dados){
+        cout << pp.first << " " << pp.second << endl;
+    }*/
+};

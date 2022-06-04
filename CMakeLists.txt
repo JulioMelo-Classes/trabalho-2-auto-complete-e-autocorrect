@@ -23,6 +23,7 @@ add_executable(words_complete_correct
                src/Autocomplete.cpp
                src/Ordenacao.cpp 
                src/Interface.cpp
+               src/Autocorrect.cpp
               )
               
 target_include_directories(words_complete_correct PUBLIC

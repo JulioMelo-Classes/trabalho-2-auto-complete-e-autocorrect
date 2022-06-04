@@ -176,6 +176,33 @@ src/Autocomplete.cpp.s:
 	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.s
 .PHONY : src/Autocomplete.cpp.s
 
+src/Autocorrect.o: src/Autocorrect.cpp.o
+
+.PHONY : src/Autocorrect.o
+
+# target to build an object file
+src/Autocorrect.cpp.o:
+	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o
+.PHONY : src/Autocorrect.cpp.o
+
+src/Autocorrect.i: src/Autocorrect.cpp.i
+
+.PHONY : src/Autocorrect.i
+
+# target to preprocess a source file
+src/Autocorrect.cpp.i:
+	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.i
+.PHONY : src/Autocorrect.cpp.i
+
+src/Autocorrect.s: src/Autocorrect.cpp.s
+
+.PHONY : src/Autocorrect.s
+
+# target to generate assembly for a file
+src/Autocorrect.cpp.s:
+	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.s
+.PHONY : src/Autocorrect.cpp.s
+
 src/Interface.o: src/Interface.cpp.o
 
 .PHONY : src/Interface.o
@@ -325,6 +352,9 @@ help:
 	@echo "... src/Autocomplete.o"
 	@echo "... src/Autocomplete.i"
 	@echo "... src/Autocomplete.s"
+	@echo "... src/Autocorrect.o"
+	@echo "... src/Autocorrect.i"
+	@echo "... src/Autocorrect.s"
 	@echo "... src/Interface.o"
 	@echo "... src/Interface.i"
 	@echo "... src/Interface.s"
