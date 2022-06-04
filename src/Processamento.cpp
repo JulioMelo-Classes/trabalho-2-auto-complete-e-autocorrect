@@ -31,25 +31,7 @@ void Processamento::leitura_arquivos(){
     arq_palavras.close();
 };
 
-void Processamento::ordenacao(){
-    sort(m_dados.begin(), m_dados.end(),
-            [] (const auto &x, const auto &y) {return x.second < y.second; });
-};
 
-void Processamento::busca(string prefixo){
-    int pos_inicio = 0, pos_fim = m_dados.size()-1;
-    for(auto pp : m_dados){
-        if(pp.second[0] == prefixo[0]){
-
-        }
-        if(find(pp.second.begin(), pp.second.end(), prefixo[0]) != pp.second.end()){
-
-        }
-    }
-    while(pos_inicio <= pos_fim){
-        int pos_meio = (int)((pos_inicio + pos_fim) / 2);
-        if(find(m_dados[pos_meio].second.begin(), m_dados[pos_meio].second.end(), prefixo) != m_dados[pos_meio].second.end()){
-            m_dados_com_prefixo.push_back(make_pair(m_dados[pos_meio].first, m_dados[pos_meio].second));
-        }
-    }
+vector<pair<int, string>> Processamento::get_dados(){
+    return m_dados;
 };
