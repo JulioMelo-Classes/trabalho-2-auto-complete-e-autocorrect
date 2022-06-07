@@ -34,7 +34,9 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
         }
     }*/
     int pos_inicio = 0, pos_fim = (int)(dados.size()-1), pos_meio=0;
-    while(true){
+    // lower_bound + lambda p/ deixar menor ao inves de maior ou igual
+    // lambda como parametro igual no sort
+    // upper_bound pegando o maior
         while(pos_inicio <= pos_fim){
             pos_meio = (int)((pos_inicio + pos_fim) / 2);
             if(dados[pos_meio].second[0] == m_prefixo[0]){
@@ -52,10 +54,6 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
             cout << (int)(dados[pos_meio].second[0]) << " " << (int)(m_prefixo[0]) << endl;
             cout << pos_inicio << " " << pos_fim << endl;
         }
-        if(pos_inicio == pos_fim){
-            break;
-        }
-    }
         /*cout << dados[pos_meio].second << endl;
         cout << pos_meio << endl;
         cout << (int)(dados[pos_meio].second[0]) << " " << (int)(m_prefixo[0]) << endl;
