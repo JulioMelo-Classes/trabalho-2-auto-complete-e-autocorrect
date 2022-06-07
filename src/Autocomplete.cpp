@@ -33,6 +33,9 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
             }
         }
     }*/
+    //[] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); };
+    vector<pair<int, string>>::iterator it1 = lower_bound(dados.begin(), dados.end(), m_prefixo); 
+    cout << it1-dados.begin()+1 << endl;
     int pos_inicio = 0, pos_fim = (int)(dados.size()-1), pos_meio=0;
     // lower_bound + lambda p/ deixar menor ao inves de maior ou igual
     // lambda como parametro igual no sort
