@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/Autocorrect.hpp
+../include/Autocomplete.hpp
 iostream
 -
 vector
 -
 
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.cpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 iostream
 -
 iterator
@@ -25,6 +25,6 @@ fstream
 -
 vector
 -
-Autocorrect.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
+Autocomplete.hpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
 
