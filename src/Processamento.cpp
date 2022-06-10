@@ -31,6 +31,15 @@ void Processamento::leitura_arquivo(){
     arq_palavras.close();
 };
 
+void Processamento::ordenacao_autocomplete(){
+    sort(m_dados.begin(), m_dados.end(),
+            [] (const auto &x, const auto &y) {return x.second < y.second; });
+};
+
+void Processamento::ordenacao_autocorrect(){
+    sort(m_dados.begin(), m_dados.end(),
+            [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); });
+};
 
 vector<pair<int, string>> Processamento::get_dados(){
     return m_dados;

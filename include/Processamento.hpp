@@ -12,6 +12,8 @@ class Processamento{
     public:
         Processamento(string palavras_ptbr);
         void leitura_arquivo();
+        void ordenacao_autocomplete();
+        void ordenacao_autocorrect();
         vector<pair<int, string>> get_dados();
 };
 
