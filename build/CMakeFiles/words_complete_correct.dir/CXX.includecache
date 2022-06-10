@@ -11,6 +11,20 @@ iostream
 -
 vector
 -
+Processamento.hpp
+../include/Processamento.hpp
+
+../include/Autocorrect.hpp
+iostream
+-
+vector
+-
+
+../include/Processamento.hpp
+iostream
+-
+vector
+-
 
 /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 iostream
@@ -27,4 +41,20 @@ vector
 -
 Autocomplete.hpp
 /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
+
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.cpp
+iostream
+-
+iterator
+-
+algorithm
+-
+cctype
+-
+fstream
+-
+vector
+-
+Autocorrect.hpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
 

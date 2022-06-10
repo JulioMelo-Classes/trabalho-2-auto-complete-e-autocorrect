@@ -11,7 +11,7 @@ class Processamento{
         vector<pair<int, string>> m_dados;
     public:
         Processamento(string palavras_ptbr);
-        void leitura_arquivos();
+        void leitura_arquivo();
         vector<pair<int, string>> get_dados();
 };
 

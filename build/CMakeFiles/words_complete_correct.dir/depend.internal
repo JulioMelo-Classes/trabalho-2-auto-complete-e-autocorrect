@@ -3,6 +3,7 @@
 
 CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o
  ../include/Autocomplete.hpp
+ ../include/Processamento.hpp
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o
  ../include/Autocorrect.hpp
@@ -12,6 +13,7 @@ CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
 CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o
  ../include/Ordenacao.hpp
+ ../include/Processamento.hpp
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Ordenacao.cpp
 CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o
  ../include/Processamento.hpp

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include "Processamento.hpp"
 
 class Autocomplete{
     private:

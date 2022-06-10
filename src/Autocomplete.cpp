@@ -13,7 +13,8 @@ Autocomplete::Autocomplete(string pre){
 };
 
 void Autocomplete::auto_complete(vector<pair<int, string>> dados){
-    /*int verif=0;
+    int verif=0, N;
+    vector<pair<int, string>> C;
     for(auto pp : dados){
         if(pp.second.find(m_prefixo) < pp.second.size()){
             if(pp.second[0] == m_prefixo[0]){
@@ -26,21 +27,32 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
                         }
                     }
                     if(verif != 1){
-                       m_dados_com_prefixo.push_back(make_pair(pp.first, pp.second)); 
+                       C.push_back(make_pair(pp.first, pp.second)); 
                     }
                     verif = 0;
                 }
             }
         }
-    }*/
-    //[] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); };
-    vector<pair<int, string>>::iterator it1 = lower_bound(dados.begin(), dados.end(), m_prefixo); 
+    }
+    if(!C.empty()){
+        if(C.size() < 10){
+            N = C.size();   
+        }else{
+            N = 10;
+        }
+        for(int tt=0; tt < N; tt++){
+            m_dados_com_prefixo.push_back(make_pair(C[tt].first, C[tt].second));
+        } 
+    }
+    /*[] (const auto &x) {return x.second.substring(0, m_prefixo.size()) == m_prefixo; };
+    vector<string> vetor;
+    for(auto pp : dados){
+        vetor.push_back(pp.second);
+    }
+    vector<pair<int, string>>::iterator it1 = lower_bound(dados.begin(), dados.end(), m_prefixo, [] (const auto &x) {return x.second.substring(0, m_prefixo.size()) < m_prefixo; }); 
     cout << it1-dados.begin()+1 << endl;
-    int pos_inicio = 0, pos_fim = (int)(dados.size()-1), pos_meio=0;
-    // lower_bound + lambda p/ deixar menor ao inves de maior ou igual
-    // lambda como parametro igual no sort
-    // upper_bound pegando o maior
-        while(pos_inicio <= pos_fim){
+    int pos_inicio = 0, pos_fim = (int)(dados.size()-1), pos_meio=0;*/
+        /*while(pos_inicio <= pos_fim){
             pos_meio = (int)((pos_inicio + pos_fim) / 2);
             if(dados[pos_meio].second[0] == m_prefixo[0]){
                 string substring = dados[pos_meio].second.substr(0, m_prefixo.size());
@@ -57,6 +69,9 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
             cout << (int)(dados[pos_meio].second[0]) << " " << (int)(m_prefixo[0]) << endl;
             cout << pos_inicio << " " << pos_fim << endl;
         }
+        if(pos_inicio == pos_fim){
+            break;
+        }*/
         /*cout << dados[pos_meio].second << endl;
         cout << pos_meio << endl;
         cout << (int)(dados[pos_meio].second[0]) << " " << (int)(m_prefixo[0]) << endl;

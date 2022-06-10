@@ -11,7 +11,7 @@ Processamento::Processamento(string palavras_ptbr){
     m_palavras_ptbr = palavras_ptbr;
 };
 
-void Processamento::leitura_arquivos(){
+void Processamento::leitura_arquivo(){
     fstream arq_palavras;
     string line, palavra;
     int pos, freq;

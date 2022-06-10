@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, char *argv[]){
     Processamento Processamento(argv[1]);
-    Processamento.leitura_arquivos();
+    Processamento.leitura_arquivo();
     Ordenacao ord;
     Interface inter;
     string entrada;
@@ -26,6 +26,7 @@ int main(int argc, char *argv[]){
     Autocorrect Autocorrect(entrada.size());
     Autocomplete.auto_complete(ord.ordenacao_auto_complete(Processamento.get_dados()));
     inter.impressao_autocomplete(ord.ordenacao_peso(Autocomplete.get_dados_com_prefixo()));
-    //Autocorrect.auto_correct(ord.ordenacao_auto_correct(Processamento.get_dados()));
+    Autocorrect.auto_correct(ord.ordenacao_auto_correct(Processamento.get_dados()), entrada);
+    inter.impressao_autocorrect(ord.ordenacao_dist_ed(Autocorrect.get_dados_correct()));
     return 0;
 };

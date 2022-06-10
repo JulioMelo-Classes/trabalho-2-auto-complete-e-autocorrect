@@ -7,7 +7,7 @@
 class Interface{
     public:
         void impressao_autocomplete(std::vector<std::pair<int, std::string>> dados_autocomplete);
-        void impressao_autocorrect();
+        void impressao_autocorrect(std::vector<std::pair<int, std::string>> dados_autocorrect);
 
 };
 
