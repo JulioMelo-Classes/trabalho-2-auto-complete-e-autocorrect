@@ -7,14 +7,14 @@ CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o
  ../include/Autocorrect.hpp
+ ../include/Processamento.hpp
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.cpp
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o
+ ../include/Autocomplete.hpp
+ ../include/Autocorrect.hpp
  ../include/Interface.hpp
- /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o
- ../include/Ordenacao.hpp
  ../include/Processamento.hpp
- /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Ordenacao.cpp
+ /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
 CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o
  ../include/Processamento.hpp
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp
@@ -22,6 +22,5 @@ CMakeFiles/words_complete_correct.dir/src/main.cpp.o
  ../include/Autocomplete.hpp
  ../include/Autocorrect.hpp
  ../include/Interface.hpp
- ../include/Ordenacao.hpp
  ../include/Processamento.hpp
  /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main.cpp

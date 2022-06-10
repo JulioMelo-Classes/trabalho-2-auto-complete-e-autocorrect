@@ -96,22 +96,9 @@ CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp -o CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.s
 
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o: CMakeFiles/words_complete_correct.dir/flags.make
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o: ../src/Ordenacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o -c /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Ordenacao.cpp
-
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Ordenacao.cpp > CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.i
-
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Ordenacao.cpp -o CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.s
-
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: CMakeFiles/words_complete_correct.dir/flags.make
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../src/Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o -c /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
 
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/words_complete_correct.dir/src/Interface.cpp.s: cmake_force
 
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o: CMakeFiles/words_complete_correct.dir/flags.make
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o: ../src/Autocorrect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o -c /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.cpp
 
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.i: cmake_force
@@ -140,7 +127,6 @@ words_complete_correct_OBJECTS = \
 "CMakeFiles/words_complete_correct.dir/src/main.cpp.o" \
 "CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o" \
 "CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o" \
-"CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o" \
 "CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o" \
 "CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o"
 
@@ -150,12 +136,11 @@ words_complete_correct_EXTERNAL_OBJECTS =
 words_complete_correct: CMakeFiles/words_complete_correct.dir/src/main.cpp.o
 words_complete_correct: CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o
 words_complete_correct: CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o
-words_complete_correct: CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o
 words_complete_correct: CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o
 words_complete_correct: CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o
 words_complete_correct: CMakeFiles/words_complete_correct.dir/build.make
 words_complete_correct: CMakeFiles/words_complete_correct.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable words_complete_correct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable words_complete_correct"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/words_complete_correct.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

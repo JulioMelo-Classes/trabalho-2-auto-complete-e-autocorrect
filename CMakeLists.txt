@@ -21,7 +21,6 @@ add_executable(words_complete_correct
                src/main.cpp
                src/Processamento.cpp
                src/Autocomplete.cpp
-               src/Ordenacao.cpp 
                src/Interface.cpp
                src/Autocorrect.cpp
               )

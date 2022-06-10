@@ -6,14 +6,14 @@ CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o: ../include/Process
 CMakeFiles/words_complete_correct.dir/src/Autocomplete.cpp.o: ../src/Autocomplete.cpp
 
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o: ../include/Autocorrect.hpp
+CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o: ../include/Processamento.hpp
 CMakeFiles/words_complete_correct.dir/src/Autocorrect.cpp.o: ../src/Autocorrect.cpp
 
+CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../include/Autocomplete.hpp
+CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../include/Autocorrect.hpp
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../include/Interface.hpp
+CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../include/Processamento.hpp
 CMakeFiles/words_complete_correct.dir/src/Interface.cpp.o: ../src/Interface.cpp
-
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o: ../include/Ordenacao.hpp
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o: ../include/Processamento.hpp
-CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o: ../src/Ordenacao.cpp
 
 CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o: ../include/Processamento.hpp
 CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o: ../src/Processamento.cpp
@@ -21,7 +21,6 @@ CMakeFiles/words_complete_correct.dir/src/Processamento.cpp.o: ../src/Processame
 CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../include/Autocomplete.hpp
 CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../include/Autocorrect.hpp
 CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../include/Interface.hpp
-CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../include/Ordenacao.hpp
 CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../include/Processamento.hpp
 CMakeFiles/words_complete_correct.dir/src/main.cpp.o: ../src/main.cpp
 

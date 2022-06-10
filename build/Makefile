@@ -230,33 +230,6 @@ src/Interface.cpp.s:
 	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Interface.cpp.s
 .PHONY : src/Interface.cpp.s
 
-src/Ordenacao.o: src/Ordenacao.cpp.o
-
-.PHONY : src/Ordenacao.o
-
-# target to build an object file
-src/Ordenacao.cpp.o:
-	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.o
-.PHONY : src/Ordenacao.cpp.o
-
-src/Ordenacao.i: src/Ordenacao.cpp.i
-
-.PHONY : src/Ordenacao.i
-
-# target to preprocess a source file
-src/Ordenacao.cpp.i:
-	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.i
-.PHONY : src/Ordenacao.cpp.i
-
-src/Ordenacao.s: src/Ordenacao.cpp.s
-
-.PHONY : src/Ordenacao.s
-
-# target to generate assembly for a file
-src/Ordenacao.cpp.s:
-	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/src/Ordenacao.cpp.s
-.PHONY : src/Ordenacao.cpp.s
-
 src/Processamento.o: src/Processamento.cpp.o
 
 .PHONY : src/Processamento.o
@@ -358,9 +331,6 @@ help:
 	@echo "... src/Interface.o"
 	@echo "... src/Interface.i"
 	@echo "... src/Interface.s"
-	@echo "... src/Ordenacao.o"
-	@echo "... src/Ordenacao.i"
-	@echo "... src/Ordenacao.s"
 	@echo "... src/Processamento.o"
 	@echo "... src/Processamento.i"
 	@echo "... src/Processamento.s"

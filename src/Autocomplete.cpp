@@ -12,8 +12,45 @@ Autocomplete::Autocomplete(string pre){
     m_prefixo = pre;
 };
 
-void Autocomplete::auto_complete(vector<pair<int, string>> dados){
+//void Autocomplete::auto_complete(vector<pair<int, string>> dados){
+void Autocomplete::auto_complete(Processamento* p){
     int verif=0, N;
+    /*sort(p->get_dados().begin(), p->get_dados().end(),
+            [] (const auto &x, const auto &y) {return x.second < y.second; });*/
+    vector<pair<int, string>> C;
+    for(auto pp : p->get_dados()){
+        if(pp.second.find(m_prefixo) < pp.second.size()){
+            if(pp.second[0] == m_prefixo[0]){
+                string substring = pp.second.substr(0, m_prefixo.size());
+                if(substring == m_prefixo){
+                    for(auto qq : m_dados_com_prefixo){
+                        if(pp.second == qq.second){
+                            verif = 1;
+                            break;
+                        }
+                    }
+                    if(verif != 1){
+                       C.push_back(make_pair(pp.first, pp.second)); 
+                    }
+                    verif = 0;
+                }
+            }
+        }
+    }
+    sort(C.begin(), C.end());
+    reverse(C.begin(), C.end());
+    if(!C.empty()){
+        if(C.size() < 10){
+            N = C.size();   
+        }else{
+            N = 10;
+        }
+        for(int tt=0; tt < N; tt++){
+            m_dados_com_prefixo.push_back(make_pair(C[tt].first, C[tt].second));
+        } 
+    }
+    /*sort(dados.begin(), dados.end(),
+            [] (const auto &x, const auto &y) {return x.second < y.second; });
     vector<pair<int, string>> C;
     for(auto pp : dados){
         if(pp.second.find(m_prefixo) < pp.second.size()){
@@ -34,6 +71,8 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
             }
         }
     }
+    sort(C.begin(), C.end());
+    reverse(C.begin(), C.end());
     if(!C.empty()){
         if(C.size() < 10){
             N = C.size();   
@@ -43,7 +82,7 @@ void Autocomplete::auto_complete(vector<pair<int, string>> dados){
         for(int tt=0; tt < N; tt++){
             m_dados_com_prefixo.push_back(make_pair(C[tt].first, C[tt].second));
         } 
-    }
+    }*/
     /*[] (const auto &x) {return x.second.substring(0, m_prefixo.size()) == m_prefixo; };
     vector<string> vetor;
     for(auto pp : dados){
