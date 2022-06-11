@@ -6,39 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/Autocomplete.hpp
-iostream
--
-vector
--
-Processamento.hpp
-../include/Processamento.hpp
-
-../include/Autocorrect.hpp
-iostream
--
-vector
--
-Processamento.hpp
-../include/Processamento.hpp
-
-../include/Interface.hpp
-iostream
--
-vector
--
-Autocomplete.hpp
-../include/Autocomplete.hpp
-Autocorrect.hpp
-../include/Autocorrect.hpp
-
 ../include/Processamento.hpp
 iostream
 -
 vector
 -
 
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp
 iostream
 -
 iterator
@@ -49,26 +23,6 @@ cctype
 -
 fstream
 -
-vector
--
-Interface.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
-
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main.cpp
-iostream
--
-iterator
--
-algorithm
--
-cctype
--
 Processamento.hpp
 /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.hpp
-Autocomplete.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
-Interface.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
-Autocorrect.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
 

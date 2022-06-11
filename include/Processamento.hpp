@@ -14,6 +14,8 @@ class Processamento{
         void leitura_arquivo();
         void ordenacao_autocomplete();
         void ordenacao_autocorrect();
+        bool validacao_entrada(string entrada);
+        bool validacao_arquivo();
         vector<pair<int, string>> get_dados();
 };
 
