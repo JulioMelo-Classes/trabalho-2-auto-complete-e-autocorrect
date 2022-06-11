@@ -56,7 +56,6 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
             Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!
         ```
-        - ![erro1](https://user-images.githubusercontent.com/82531511/166151162-7e764e26-7b3b-45b8-9503-b02bc543c325.jpeg)
 
 
     - (b) ERRO DE ENTRADA INVALIDA - STRING VAZIA; <br />
@@ -69,4 +68,3 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
             Entrada Invalida. Digite novamente!!!
         ```
-        - ![erro2](https://user-images.githubusercontent.com/82531511/166151195-82af3846-00ff-4f16-8969-10de2995e33b.jpeg)
