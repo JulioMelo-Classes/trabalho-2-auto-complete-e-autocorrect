@@ -17,21 +17,19 @@ void Autocomplete::auto_complete(Processamento* p){
     p->ordenacao_autocomplete();
     vector<pair<int, string>> C;
     for(auto pp : p->get_dados()){
-        if(pp.second.find(m_prefixo) < pp.second.size()){
-            if(pp.second[0] == m_prefixo[0]){
-                string substring = pp.second.substr(0, m_prefixo.size());
-                if(substring == m_prefixo){
-                    for(auto qq : m_dados_com_prefixo){
-                        if(pp.second == qq.second){
-                            verif = 1;
-                            break;
-                        }
+        if(pp.second[0] == m_prefixo[0]){
+            string substring = pp.second.substr(0, m_prefixo.size());
+            if(substring == m_prefixo){
+                for(auto qq : m_dados_com_prefixo){
+                    if(pp.second == qq.second){
+                        verif = 1;
+                        break;
                     }
-                    if(verif != 1){
-                       C.push_back(make_pair(pp.first, pp.second)); 
-                    }
-                    verif = 0;
                 }
+                if(verif != 1){
+                    C.push_back(make_pair(pp.first, pp.second)); 
+                }
+                verif = 0;
             }
         }
     }
