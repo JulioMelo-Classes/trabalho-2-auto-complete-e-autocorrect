@@ -23,7 +23,7 @@ class Autocomplete{
         void auto_complete(Processamento* p);
 
         /**
-         * GETTER DO VETOR DAS PALAVRAS DO AUTOCOMPLETE
+         * GETTER DAS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE
          * @return VETOR CONTENDO AS PALAVRAS DO AUTOCOMPLETE
          */
         std::vector<std::pair<int, std::string>> get_dados_com_prefixo();

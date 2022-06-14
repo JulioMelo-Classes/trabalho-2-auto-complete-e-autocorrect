@@ -40,4 +40,4 @@ string Interface::leitura_entrada(){
 
 void Interface::impressao_msg_inicial(){
     cout << ">>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ";
-}
+};

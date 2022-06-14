@@ -20,7 +20,7 @@ void Autocomplete::auto_complete(Processamento* p){
         if(pp.second[0] == m_prefixo[0]){
             string substring = pp.second.substr(0, m_prefixo.size());
             if(substring == m_prefixo){
-                for(auto qq : m_dados_com_prefixo){
+                for(auto qq : C){
                     if(pp.second == qq.second){
                         verif = 1;
                         break;
