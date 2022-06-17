@@ -31,14 +31,32 @@ void Processamento::leitura_arquivo(){
     arq_palavras.close();
 };
 
-void Processamento::ordenacao_autocomplete(){
+vector<pair<int, string>> Processamento::autocomplete(string prefixo){
+    vector<pair<int, string>> Acomp;
     sort(m_dados.begin(), m_dados.end(),
             [] (const auto &x, const auto &y) {return x.second < y.second; });
+    auto it1 = lower_bound(m_dados.begin(), m_dados.end(), prefixo,
+                            [](pair<int, string> &s_v, string value){ return s_v.second < value;});
+    auto it2 = upper_bound(m_dados.begin(), m_dados.end(), prefixo, 
+                            [](string value, pair<int, string> &s_v){return value < s_v.second.substr(0, value.size());});
+    int ii = it1-m_dados.begin();
+    while(ii != it2-m_dados.begin()){
+        Acomp.push_back(make_pair(m_dados[ii].first, m_dados[ii].second));
+        ii++;
+    }
+    return Acomp;
 };
 
-void Processamento::ordenacao_autocorrect(){
+vector<pair<int, string>> Processamento::autocorrect(int len_prefixo){
+    vector<pair<int, string>> Acorr;
     sort(m_dados.begin(), m_dados.end(),
             [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); });
+    for(auto pp : m_dados){
+        if(((pp.second.size()-1) == len_prefixo || (pp.second.size()-1) == len_prefixo+1)){
+            Acorr.push_back(make_pair(pp.first, pp.second));
+        }
+    }
+    return Acorr;
 };
 
 bool Processamento::validacao_arquivo(){
@@ -78,12 +96,15 @@ bool Processamento::validacao_arquivo(){
 
 bool Processamento::validacao_entrada(string entrada){
     if(entrada.empty()){
-        cout << "Entrada Invalida. Digite novamente!!!" << endl;
+        cout << "Entrada Invalida - Palavra Vazia. Digite novamente!!!" << endl;
         return false;
     }else{
         for(int ii=0; ii < (int)entrada.size(); ii++){
             if(ispunct(entrada[ii]) && (entrada[ii] != '-')){
                 cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
+                return false;
+            } else if(isdigit(entrada[ii])){
+                cout << "Entrada Invalida - Caractere numerico encontrado. Digite novamente!!!" << endl;
                 return false;
             }
         }

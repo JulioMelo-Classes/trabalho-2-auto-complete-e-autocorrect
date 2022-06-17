@@ -24,12 +24,12 @@ class Processamento{
         /**
          * ORDENAÇÃO DO AUTOCOMPLETE (ORDEM ALFABETICA)
          */
-        void ordenacao_autocomplete();
+        std::vector<std::pair<int, std::string>> autocomplete(string prefixo);
 
         /**
          * ORDENAÇÃO DO AUTOCORRECT (TAMANHO DA STRING - ORDEM CRESCENTE)
          */
-        void ordenacao_autocorrect();
+        std::vector<std::pair<int, std::string>> autocorrect(int len_prefixo);
 
         /**
          * RECEBE A ENTRADA DADA PELO USUARIO NA LEITURA DA ENTRADA E VERIFICA CARACTERE A CARACTERE SE É VÁLIDA, OU SEJA,

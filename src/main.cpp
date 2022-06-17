@@ -43,5 +43,6 @@ int main(int argc, char *argv[]){
             delete Acorr;
         }
     }
+    delete p;
     return 0;
 };

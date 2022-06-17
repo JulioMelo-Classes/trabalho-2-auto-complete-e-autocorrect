@@ -12,7 +12,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
     cmake --build . --target words_complete_correct
     ./words_complete_correct ../data/ptbrcorpus.txt
 ```
-# Validação dos Arquivos - Testes
+# Validação - Testes
 
 1. Arquivo de Palavras:
     - (a) ERRO DE INEXISTÊNCIA;  <br />
@@ -47,7 +47,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
 
 2. Entrada:  
     - (a) ERRO DE ENTRADA INVALIDA - CARACTERE ESPECIAL; <br />
-        Para testar o erro "Entrada invalida", escreva na entrada de dados:
+        Para testar o erro "Entrada invalida", digite na entrada de dados:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): br@
         ```
@@ -64,7 +64,50 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar):
         ```
         A saída esperada é:
+        ```
+            Entrada Invalida - Palavra Vazia. Digite novamente!!!
+        ```
+
+    -(c) ERRO DE ENTRADA INVALIDA - CARACTERE NUMERICO; <br />
+        Para testar o erro "Caractere Numerico", digite na entrada de dados:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): var1
+        ```
+        A saída esperada é:
 
         ```
-            Entrada Invalida. Digite novamente!!!
+            Entrada Invalida - Caractere numerico encontrado. Digite novamente!!!
         ```
+    
+3. Autocomplete e Autocorrect
+    - (a) VALIDAÇÃO DA IMPLEMENTAÇÃO DO AUTOCOMPLETE E AUTOCORRECT; <br />
+        Para testar o funcionamento do Autocomplete e Autocorrect, digite na entrada de dados:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): prep
+        ```
+        A saída esperada é:
+
+        ```
+            Autocomplete
+            PREPARACAO
+            PREPARO
+            PREPARAR
+            PREPARADO
+            PREPARA
+            PREPARADOS
+            PREPARADA
+            PREPARADAS
+            PREPARANDO
+            Autocorrect
+            PRECO
+            PRESA
+            PRESO
+            PRESS
+            PRETA
+            PRETO
+            PREVE
+            AREAS
+            AREIA
+            ARENA
+        ```
+

@@ -38,6 +38,20 @@ iostream
 vector
 -
 
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp
+iostream
+-
+iterator
+-
+algorithm
+-
+cctype
+-
+fstream
+-
+Processamento.hpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.hpp
+
 /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main.cpp
 iostream
 -
