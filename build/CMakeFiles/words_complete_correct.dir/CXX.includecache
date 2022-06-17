@@ -38,7 +38,7 @@ iostream
 vector
 -
 
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.cpp
+/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
 iostream
 -
 iterator
@@ -49,24 +49,12 @@ cctype
 -
 fstream
 -
-Processamento.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.hpp
-
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main.cpp
-iostream
+vector
 -
-iterator
+iomanip
 -
-algorithm
+string
 -
-cctype
--
-Processamento.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Processamento.hpp
-Autocomplete.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
 Interface.hpp
 /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
-Autocorrect.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
 

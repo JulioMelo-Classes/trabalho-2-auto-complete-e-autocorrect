@@ -25,7 +25,7 @@ class Interface{
          * IMPRIME A INTERFACE COM AS PALAVRAS EM POTÊNCIAL PARA O AUTOCOMPLETE
          * @param dados_autocomplete REFERÊNCIA DA CLASSE AUTOCOMPLETE
          */
-        void impressao_autocomplete(Autocomplete* dados_autocomplete);
+        void impressao_autocomplete(Autocomplete* dados_autocomplete, Autocorrect *dados_autocorrect);
 
         /**
          * IMPRIME A INTERFACE COM AS PALAVRAS EM POTÊNCIAL PARA O AUTOCORRECT

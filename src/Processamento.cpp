@@ -33,6 +33,7 @@ void Processamento::leitura_arquivo(){
 
 vector<pair<int, string>> Processamento::autocomplete(string prefixo){
     vector<pair<int, string>> Acomp;
+    int verif=0;
     sort(m_dados.begin(), m_dados.end(),
             [] (const auto &x, const auto &y) {return x.second < y.second; });
     auto it1 = lower_bound(m_dados.begin(), m_dados.end(), prefixo,
@@ -41,7 +42,16 @@ vector<pair<int, string>> Processamento::autocomplete(string prefixo){
                             [](string value, pair<int, string> &s_v){return value < s_v.second.substr(0, value.size());});
     int ii = it1-m_dados.begin();
     while(ii != it2-m_dados.begin()){
-        Acomp.push_back(make_pair(m_dados[ii].first, m_dados[ii].second));
+        for(auto pp : Acomp){
+            if(m_dados[ii].second == pp.second){
+                verif=1;
+                break;
+            }
+        }
+        if(verif != 1){
+            Acomp.push_back(make_pair(m_dados[ii].first, m_dados[ii].second));
+        }
+        verif=0;
         ii++;
     }
     return Acomp;

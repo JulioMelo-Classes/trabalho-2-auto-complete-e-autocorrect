@@ -7,7 +7,7 @@
 
 class Autocomplete{
     private:
-        std::vector<std::pair<int, std::string>> m_dados_com_prefixo; //<! VETOR CONTENDO OS DADOS DO AUTOCOMPLETE
+        std::vector<std::pair<int, std::string>> m_dados_autocomplete; //<! VETOR CONTENDO OS DADOS DO AUTOCOMPLETE
         std::string m_prefixo; //<! PREFIXO DADO PELO USUÁRIO
     public:
         /**
@@ -26,7 +26,7 @@ class Autocomplete{
          * GETTER DAS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE
          * @return VETOR CONTENDO AS PALAVRAS DO AUTOCOMPLETE
          */
-        std::vector<std::pair<int, std::string>> get_dados_com_prefixo();
+        std::vector<std::pair<int, std::string>> get_dados_autocomplete();
 
 
 };

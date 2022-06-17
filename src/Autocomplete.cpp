@@ -13,7 +13,7 @@ Autocomplete::Autocomplete(string pre){
 };
 
 void Autocomplete::auto_complete(Processamento* p){
-    int verif=0, N;
+    int N;
     vector<pair<int, string>> Acomp;
     Acomp = p->autocomplete(m_prefixo);
     sort(Acomp.begin(), Acomp.end());
@@ -25,11 +25,11 @@ void Autocomplete::auto_complete(Processamento* p){
             N = 10;
         }
         for(int tt=0; tt < N; tt++){
-            m_dados_com_prefixo.push_back(make_pair(Acomp[tt].first, Acomp[tt].second));
+            m_dados_autocomplete.push_back(make_pair(Acomp[tt].first, Acomp[tt].second));
         } 
     }
 };
 
-std::vector<std::pair<int, std::string>> Autocomplete::get_dados_com_prefixo(){
-    return m_dados_com_prefixo;
+std::vector<std::pair<int, std::string>> Autocomplete::get_dados_autocomplete(){
+    return m_dados_autocomplete;
 };
