@@ -3,6 +3,7 @@
 #include <iterator>
 #include <algorithm>
 #include <cctype>
+#include <iomanip>
 #include "Processamento.hpp"
 #include "Autocomplete.hpp"
 #include "Interface.hpp"
@@ -21,9 +22,13 @@ int main(int argc, char *argv[]){
     }else{
         p->leitura_arquivo();
         string entrada;
-        inter.impressao_msg_inicial();
-        while(cin >> ws){
+        while(true){
+            inter.impressao_msg_inicial();
             entrada = inter.leitura_entrada();
+            if(iscntrl(entrada[0])){
+                cout << endl;
+                exit(-1);
+            }
             while(true){
                 if(p->validacao_entrada(entrada)){
                     break;
@@ -37,7 +42,6 @@ int main(int argc, char *argv[]){
             Acomp->auto_complete(p);
             Acorr->auto_correct(p, entrada);
             inter.impressao_autocomplete_autocorrect(Acomp, Acorr);
-            inter.impressao_msg_inicial();
             delete Acomp;
             delete Acorr;
         }
