@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes
+CMAKE_SOURCE_DIR = /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build
+CMAKE_BINARY_DIR = /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build
 
 # Utility rule file for libncurses.
 
@@ -64,53 +64,53 @@ CMakeFiles/libncurses-complete: ncurses/src/libncurses-stamp/libncurses-patch
 CMakeFiles/libncurses-complete: ncurses/src/libncurses-stamp/libncurses-configure
 CMakeFiles/libncurses-complete: ncurses/src/libncurses-stamp/libncurses-build
 CMakeFiles/libncurses-complete: ncurses/src/libncurses-stamp/libncurses-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libncurses'"
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libncurses'"
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-done
 
 ncurses/src/libncurses-stamp/libncurses-install: ncurses/src/libncurses-stamp/libncurses-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libncurses'"
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && make install
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libncurses'"
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && make install
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install
 
 ncurses/src/libncurses-stamp/libncurses-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libncurses'"
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/ncurses-6.3
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/tmp
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src
-	/usr/bin/cmake -E make_directory /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libncurses'"
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/ncurses-6.3
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/tmp
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src
+	/usr/bin/cmake -E make_directory /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir
 
 ncurses/src/libncurses-stamp/libncurses-download: ncurses/src/libncurses-stamp/libncurses-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'libncurses'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'libncurses'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download
 
 ncurses/src/libncurses-stamp/libncurses-update: ncurses/src/libncurses-stamp/libncurses-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libncurses'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libncurses'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update
 
 ncurses/src/libncurses-stamp/libncurses-patch: ncurses/src/libncurses-stamp/libncurses-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'libncurses'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'libncurses'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch
+	/usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch
 
 ncurses/src/libncurses-stamp/libncurses-configure: ncurses/tmp/libncurses-cfgcmd.txt
 ncurses/src/libncurses-stamp/libncurses-configure: ncurses/src/libncurses-stamp/libncurses-update
 ncurses/src/libncurses-stamp/libncurses-configure: ncurses/src/libncurses-stamp/libncurses-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libncurses'"
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/ncurses-6.3/configure --prefix=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses --enable-static=yes --disable-shared
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libncurses'"
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/ncurses-6.3/configure --prefix=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses --enable-static=yes --disable-shared
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure
 
 ncurses/src/libncurses-stamp/libncurses-build: ncurses/src/libncurses-stamp/libncurses-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libncurses'"
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && make
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libncurses'"
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && make
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-build && /usr/bin/cmake -E touch /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build
 
 libncurses: CMakeFiles/libncurses
 libncurses: CMakeFiles/libncurses-complete
@@ -135,6 +135,6 @@ CMakeFiles/libncurses.dir/clean:
 .PHONY : CMakeFiles/libncurses.dir/clean
 
 CMakeFiles/libncurses.dir/depend:
-	cd /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libncurses.dir/depend
 

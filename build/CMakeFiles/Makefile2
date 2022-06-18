@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes
+CMAKE_SOURCE_DIR = /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build
+CMAKE_BINARY_DIR = /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles/libncurses.dir/clean
 CMakeFiles/words_complete_correct.dir/all:
 	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/depend
 	$(MAKE) -f CMakeFiles/words_complete_correct.dir/build.make CMakeFiles/words_complete_correct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target words_complete_correct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target words_complete_correct"
 .PHONY : CMakeFiles/words_complete_correct.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/words_complete_correct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/words_complete_correct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
 .PHONY : CMakeFiles/words_complete_correct.dir/rule
 
 # Convenience name for target.
@@ -105,14 +105,14 @@ CMakeFiles/words_complete_correct.dir/clean:
 CMakeFiles/words_complete_correct_extra.dir/all: CMakeFiles/libncurses.dir/all
 	$(MAKE) -f CMakeFiles/words_complete_correct_extra.dir/build.make CMakeFiles/words_complete_correct_extra.dir/depend
 	$(MAKE) -f CMakeFiles/words_complete_correct_extra.dir/build.make CMakeFiles/words_complete_correct_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=15,16 "Built target words_complete_correct_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=15,16 "Built target words_complete_correct_extra"
 .PHONY : CMakeFiles/words_complete_correct_extra.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/words_complete_correct_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/words_complete_correct_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
 .PHONY : CMakeFiles/words_complete_correct_extra.dir/rule
 
 # Convenience name for target.
@@ -132,14 +132,14 @@ CMakeFiles/words_complete_correct_extra.dir/clean:
 CMakeFiles/libncurses.dir/all:
 	$(MAKE) -f CMakeFiles/libncurses.dir/build.make CMakeFiles/libncurses.dir/depend
 	$(MAKE) -f CMakeFiles/libncurses.dir/build.make CMakeFiles/libncurses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target libncurses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target libncurses"
 .PHONY : CMakeFiles/libncurses.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libncurses.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libncurses.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles 0
 .PHONY : CMakeFiles/libncurses.dir/rule
 
 # Convenience name for target.

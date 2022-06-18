@@ -3,18 +3,17 @@
 
 #include <iostream>
 #include <vector>
-using namespace std;
 
 class Processamento{
     private:
-        string m_palavras_ptbr;
-        vector<pair<int, string>> m_dados;
+        std::string m_palavras_ptbr;
+        std::vector<std::pair<int, std::string>> m_dados;
     public:
         /**
          * CRIA UM CONSTRUTOR PROCESSAMENTO QUE RECEBE O NOME DO ARQUIVO COM A BASE DE PALAVRAS 
          * @param palavras_ptbr NOME DO ARQUIVO COM A BASE DE PALAVRAS
          */
-        Processamento(string palavras_ptbr);
+        Processamento(std::string palavras_ptbr);
 
         /**
          * REALIZA A ABERTURA E LEITURA LINHA A LINHA DO ARQUIVO COM A BASE DE PALAVRAS
@@ -24,7 +23,7 @@ class Processamento{
         /**
          * ORDENAÇÃO DO AUTOCOMPLETE (ORDEM ALFABETICA)
          */
-        std::vector<std::pair<int, std::string>> autocomplete(string prefixo);
+        std::vector<std::pair<int, std::string>> autocomplete(std::string prefixo);
 
         /**
          * ORDENAÇÃO DO AUTOCORRECT (TAMANHO DA STRING - ORDEM CRESCENTE)
@@ -38,7 +37,7 @@ class Processamento{
          * 3° NÃO POSSUI NÚMEROS;
          * @param entrada PREFIXO/PALAVRA DADO PELO USUÁRIO
          */
-        bool validacao_entrada(string entrada);
+        bool validacao_entrada(std::string entrada);
 
         /**
          * ABRE O ARQUIVO E VERIFICA SE É UM ARQUIVO VÁLIDO PARA SER USADO PELO PROGRAMA
@@ -54,7 +53,7 @@ class Processamento{
          * GETTER DA BASE DE PALAVRAS GERAL DO PROGRAMA
          * @return VETOR CONTENDO A BASE GERAL DE PALAVRAS E SEUS RESPECTIVOS PESOS
          */
-        vector<pair<int, string>> get_dados();
+        std::vector<std::pair<int, std::string>> get_dados();
 };
 
 #endif

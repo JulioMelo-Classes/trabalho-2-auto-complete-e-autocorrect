@@ -68,7 +68,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             Entrada Invalida - Palavra Vazia. Digite novamente!!!
         ```
 
-    -(c) ERRO DE ENTRADA INVALIDA - CARACTERE NUMERICO; <br />
+
+    - (c) ERRO DE ENTRADA INVALIDA - CARACTERE NUMERICO; <br />
         Para testar o erro "Caractere Numerico", digite na entrada de dados:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): var1

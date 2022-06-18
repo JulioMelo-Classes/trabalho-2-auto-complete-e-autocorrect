@@ -38,7 +38,7 @@ iostream
 vector
 -
 
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
 iostream
 -
 iterator
@@ -56,5 +56,5 @@ iomanip
 string
 -
 Interface.hpp
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
 

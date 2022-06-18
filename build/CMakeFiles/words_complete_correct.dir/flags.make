@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/include 
+CXX_INCLUDES = -I/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/include 
 

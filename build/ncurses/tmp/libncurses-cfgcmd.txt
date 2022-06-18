@@ -1,1 +1,1 @@
-cmd='/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/ncurses-6.3/configure;--prefix=/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses;--enable-static=yes;--disable-shared'
+cmd='/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/ncurses-6.3/configure;--prefix=/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses;--enable-static=yes;--disable-shared'

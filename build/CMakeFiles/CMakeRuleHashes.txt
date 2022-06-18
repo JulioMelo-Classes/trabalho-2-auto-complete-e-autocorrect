@@ -1,10 +1,10 @@
 # Hashes of file build rules.
-5917edc919c3ed8bc51baa310637f98d CMakeFiles/libncurses
-e55f9acc85ef38213db600d35450f467 CMakeFiles/libncurses-complete
-31c60d7d0cc004e55a6ccdbea3ad144b ncurses/src/libncurses-stamp/libncurses-build
-9187df20003f3b85556f1d67b4cd84ed ncurses/src/libncurses-stamp/libncurses-configure
-02f57214bbf86fb98131da0d700be235 ncurses/src/libncurses-stamp/libncurses-download
-81b50b65928e2442a408791aaea54ed1 ncurses/src/libncurses-stamp/libncurses-install
-191599bb2892afb915f6e7a6e36902e8 ncurses/src/libncurses-stamp/libncurses-mkdir
-933099b56dc871b6d38136a54e85ac0a ncurses/src/libncurses-stamp/libncurses-patch
-7297eee37d4b09dd4176071fe6fe951b ncurses/src/libncurses-stamp/libncurses-update
+79424f592bacbb9341e50dff1a7f3dbe CMakeFiles/libncurses
+91add9cd76bb8f954e6531906952e6aa CMakeFiles/libncurses-complete
+14c4fa37354858422d8689677765bb73 ncurses/src/libncurses-stamp/libncurses-build
+3805430ede5a2ed218379176157613e2 ncurses/src/libncurses-stamp/libncurses-configure
+290b9680e2fc7441cb8447ff104780e5 ncurses/src/libncurses-stamp/libncurses-download
+2819b91f4b2b63fa1af62f5e2c7926ab ncurses/src/libncurses-stamp/libncurses-install
+70711afad4787c82f09d6f84b046d69e ncurses/src/libncurses-stamp/libncurses-mkdir
+49fdfae6ec148e7a7367f2b7335279c6 ncurses/src/libncurses-stamp/libncurses-patch
+72cd1434608e9d65cf089415007803c1 ncurses/src/libncurses-stamp/libncurses-update

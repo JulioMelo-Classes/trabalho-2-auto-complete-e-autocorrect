@@ -36,8 +36,7 @@ int main(int argc, char *argv[]){
             Acorr = new Autocorrect(entrada.size());
             Acomp->auto_complete(p);
             Acorr->auto_correct(p, entrada);
-            inter.impressao_autocomplete(Acomp, Acorr);
-            //inter.impressao_autocorrect(Acorr);
+            inter.impressao_autocomplete_autocorrect(Acomp, Acorr);
             inter.impressao_msg_inicial();
             delete Acomp;
             delete Acorr;

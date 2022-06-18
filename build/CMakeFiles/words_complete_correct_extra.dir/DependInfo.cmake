@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/src/main_ncurses.cpp" "/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct_extra.dir/src/main_ncurses.cpp.o"
+  "/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/main_ncurses.cpp" "/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct_extra.dir/src/main_ncurses.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

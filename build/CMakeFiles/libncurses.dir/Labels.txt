@@ -1,13 +1,13 @@
 # Target labels
  libncurses
 # Source files and their labels
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure.rule
-/mnt/c/Users/alice/OneDrive/Documentos/GitHub/1-trabalho-2-autocomplete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses-complete.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-install.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-mkdir.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-download.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-update.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-patch.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-configure.rule
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/ncurses/src/libncurses-stamp/libncurses-build.rule
