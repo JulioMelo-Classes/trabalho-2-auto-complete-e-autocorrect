@@ -33,7 +33,7 @@ int main(int argc, char *argv[]){
                 }
             }
             Acomp = new Autocomplete(entrada);
-            Acorr = new Autocorrect(entrada.size());
+            Acorr = new Autocorrect(entrada.length());
             Acomp->auto_complete(p);
             Acorr->auto_correct(p, entrada);
             inter.impressao_autocomplete_autocorrect(Acomp, Acorr);

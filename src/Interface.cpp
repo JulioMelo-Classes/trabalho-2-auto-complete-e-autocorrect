@@ -11,7 +11,7 @@
 using namespace std;
 
 void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocorrect *dados2){
-    string maior1 = ">>> no match found <<<", maior2 = ">>> no match found <<<";
+    string maior1 = ">>> no match found <<<";
     string str1 = "Autocomplete";
     string str2 = " Autocorrect";
     string msg1 = ">>> no match found <<<";
@@ -37,7 +37,7 @@ void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocor
         for(int ii=0;  ii < dados1->get_dados_autocomplete().size(); ii++){
             if(ii==0){
                 cout << dados1->get_dados_autocomplete()[ii].second 
-                     << setw(maior1.size() - dados1->get_dados_autocomplete()[ii].second.size()) << "|" << " " << msg1 << endl;
+                     << setw((maior1.size() - dados1->get_dados_autocomplete()[ii].second.size())+2) << "|" << " " << msg1 << endl;
             } else{
                 cout << dados1->get_dados_autocomplete()[ii].second 
                      << setw((maior1.size() - dados1->get_dados_autocomplete()[ii].second.size())+2) << "|" << endl;

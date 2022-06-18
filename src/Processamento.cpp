@@ -62,7 +62,7 @@ vector<pair<int, string>> Processamento::autocorrect(int len_prefixo){
     sort(m_dados.begin(), m_dados.end(),
             [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); });
     for(auto pp : m_dados){
-        if(((pp.second.size()-1) == len_prefixo || (pp.second.size()-1) == len_prefixo+1)){
+        if((pp.second.size() == len_prefixo || pp.second.size() == len_prefixo+1)){
             Acorr.push_back(make_pair(pp.first, pp.second));
         }
     }

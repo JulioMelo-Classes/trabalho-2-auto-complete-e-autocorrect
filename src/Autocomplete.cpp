@@ -22,7 +22,7 @@ void Autocomplete::auto_complete(Processamento* p){
         if(Acomp.size() < 10){
             N = Acomp.size();   
         }else{
-            N = 10;
+            N = 7;
         }
         for(int tt=0; tt < N; tt++){
             m_dados_autocomplete.push_back(make_pair(Acomp[tt].first, Acomp[tt].second));

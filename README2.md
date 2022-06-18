@@ -83,32 +83,55 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
 3. Autocomplete e Autocorrect
     - (a) VALIDAÇÃO DA IMPLEMENTAÇÃO DO AUTOCOMPLETE E AUTOCORRECT; <br />
         Para testar o funcionamento do Autocomplete e Autocorrect, digite na entrada de dados:
+        - (I) Teste 1:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): prep
         ```
         A saída esperada é:
+        ```
+            Autocomplete           | Autocorrect
+            PREPARACAO             | PARES
+            PREPARO                | PEREZ
+            PREPARAR               | PIRES
+            PREPARADO              | POREM
+            PREPARA                | PRECO
+            PREPARADOS             | PRESA
+            PREPARADA              | PRESO
+        ```
 
+        - (II) Teste 2:
         ```
-            Autocomplete
-            PREPARACAO
-            PREPARO
-            PREPARAR
-            PREPARADO
-            PREPARA
-            PREPARADOS
-            PREPARADA
-            PREPARADAS
-            PREPARANDO
-            Autocorrect
-            PRECO
-            PRESA
-            PRESO
-            PRESS
-            PRETA
-            PRETO
-            PREVE
-            AREAS
-            AREIA
-            ARENA
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): zar
         ```
+        A saída esperada é:
+        ```
+            Autocomplete           | Autocorrect
+            >>> no match found <<< | >>> no match found <<<
+        ```
+
+        - (III) Teste 3:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): lir
+        ```
+        A saída esperada é:
+        ```
+            Autocomplete           | Autocorrect
+            >>> no match found <<< | DIA
+        ```
+        - (IV) Teste 4:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ter
+        ```
+        A saída esperada é:
+        ```
+            Autocomplete           | Autocorrect
+            TERMOS                 | >>> no match found <<<
+            TERIA                  |
+            TERMO                  |
+            TERRAS                 |
+            TERRITORIO             |
+            TERCEIRA               |
+            TEREM                  |
+        ```
+
 

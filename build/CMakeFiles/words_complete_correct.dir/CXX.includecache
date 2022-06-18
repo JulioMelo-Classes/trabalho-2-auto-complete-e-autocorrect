@@ -22,23 +22,13 @@ vector
 Processamento.hpp
 ../include/Processamento.hpp
 
-../include/Interface.hpp
-iostream
--
-vector
--
-Autocomplete.hpp
-../include/Autocomplete.hpp
-Autocorrect.hpp
-../include/Autocorrect.hpp
-
 ../include/Processamento.hpp
 iostream
 -
 vector
 -
 
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Interface.cpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 iostream
 -
 iterator
@@ -51,10 +41,22 @@ fstream
 -
 vector
 -
-iomanip
+Autocomplete.hpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
+
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.cpp
+iostream
 -
-string
+iterator
 -
-Interface.hpp
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
+algorithm
+-
+cctype
+-
+fstream
+-
+vector
+-
+Autocorrect.hpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
 
