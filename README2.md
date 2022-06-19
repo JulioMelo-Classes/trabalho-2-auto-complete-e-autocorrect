@@ -5,10 +5,6 @@
 * O Autocomplete é um recurso usado para completar a palavra de forma automática ou estática, a partir do prefixo digitado pelo usuário.
 * O Autocorrect é um recurso usado para correção de erros ortográficos ou de digitação de forma automática ou estática, a partir do prefixo digitado pelo usuário.
 
-# Visualização da Implementação dos Recursos
-
-![40ca1525-729a-4d3b-895f-c20e919b5fc1_](https://user-images.githubusercontent.com/82531511/174491799-8e3749a3-fd49-486b-9fd4-be1c801101f5.gif)
-
 # Processo de Compilação e Execução do Programa
 * Pré-Requisitos:
     - CMAKE; <br />
