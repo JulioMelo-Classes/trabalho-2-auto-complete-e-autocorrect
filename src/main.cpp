@@ -35,6 +35,10 @@ int main(int argc, char *argv[]){
                 }else{
                     inter.impressao_msg_inicial();
                     entrada = inter.leitura_entrada();
+                    if(iscntrl(entrada[0])){
+                        cout << endl;
+                        exit(-1);
+                    }
                 }
             }
             Acomp = new Autocomplete(entrada);

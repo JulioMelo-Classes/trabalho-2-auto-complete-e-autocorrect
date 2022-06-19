@@ -20,7 +20,11 @@ void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocor
             maior1 = qq.second;
         }
     }
+    cout << setw(str1.size() + (maior1.size() - str1.size())+2) << setfill('-') << "+" << setw(str2.size()+2) << setfill('-') << "-" << endl;
+    cout << setfill(' ');
     cout << str1 << setw((maior1.size() - str1.size())+2) << "|" << str2 << endl;
+    cout << setw(str1.size() + (maior1.size() - str1.size())+2) << setfill('-') << "+" << setw(str2.size()+2) << setfill('-') << "-" << endl;
+    cout << setfill(' ');
     if(dados1->get_dados_autocomplete().empty() && dados2->get_dados_correct().empty()){
         cout << msg1 << setw((maior1.size() - msg1.size())+2) << "|" << " " << msg1 << endl;
     } else if(dados1->get_dados_autocomplete().empty()){

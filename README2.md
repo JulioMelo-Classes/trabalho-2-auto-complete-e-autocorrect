@@ -1,5 +1,5 @@
-# Autocomplete e Autocorrect
-* Repositório destinado ao Trabalho II de Linguagem de Programação I, disciplina ministrada em 2022.1.
+# Trabalho-2-Autocomplete-e-Autocorrect
+* Repositório destinado ao Trabalho II de Linguagem de Programação I, disciplina ministrada no semestre 2022.1.
 
 # Introdução ao Autocomplete e Autocorrect
 * O Autocomplete é um recurso usado para completar a palavra de forma automática ou estática, a partir do prefixo digitado pelo usuário.
