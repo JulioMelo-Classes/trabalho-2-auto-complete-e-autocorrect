@@ -30,9 +30,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste_ex.txt
         ```
         A saída esperada é:
-         ```
-            Erro: Arquivo Inexistente, Arquivo: ../data/teste_ex.txt
-         ```
+         ![68f1b22b-a37a-4eba-b00b-93d05fdab611_](https://user-images.githubusercontent.com/82531511/174498117-662ee297-b44f-4164-8fce-959f97029113.gif)
+
 
     - (b) ERRO DE CARACTERE ESPECIAL; <br />
         Para testar o erro de "Caractere Especial", execute o comando:
@@ -40,9 +39,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste1.txt
         ```
         A saída esperada é:
-        ```
-            Erro: Caractere Especial encontrado, na linha: 13, palavra/peso: AN@LISE
-        ```
+        ![ad23f461-e6a2-4b21-bd4e-ed1a32ed6150_](https://user-images.githubusercontent.com/82531511/174498268-388298ae-0f56-4336-8ce1-ae2af1678fed.gif)
+
 
     - (c) ERRO DE PESO NEGATIVO; <br />
         Para testar o erro "Peso Negativo", execute o comando:
@@ -50,9 +48,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste2.txt
         ```
         A saída esperada é:
-        ```
-            Erro: Peso Negativo, na linha: 3, palavra/peso: -278988
-        ```
+        ![936dc55e-0996-49e6-8d60-4a9113146ea2_](https://user-images.githubusercontent.com/82531511/174498364-26f4bd6e-365b-46bc-959b-a82b6781de85.gif)
+
 
 2. Entrada:  
     - (a) ERRO DE ENTRADA INVALIDA - CARACTERE ESPECIAL; <br />
