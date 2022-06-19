@@ -30,6 +30,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste_ex.txt
         ```
         A saída esperada é:
+        
          ![68f1b22b-a37a-4eba-b00b-93d05fdab611_](https://user-images.githubusercontent.com/82531511/174498117-662ee297-b44f-4164-8fce-959f97029113.gif)
 
 
@@ -39,6 +40,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste1.txt
         ```
         A saída esperada é:
+        
         ![ad23f461-e6a2-4b21-bd4e-ed1a32ed6150_](https://user-images.githubusercontent.com/82531511/174498268-388298ae-0f56-4336-8ce1-ae2af1678fed.gif)
 
 
@@ -48,6 +50,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             ./words_complete_correct ../data/teste2.txt
         ```
         A saída esperada é:
+        
         ![936dc55e-0996-49e6-8d60-4a9113146ea2_](https://user-images.githubusercontent.com/82531511/174498364-26f4bd6e-365b-46bc-959b-a82b6781de85.gif)
 
 
@@ -59,9 +62,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
 
-        ```
-            Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!
-        ```
+        ![c765f4dd-9d9a-4fe6-8987-b60ec8789725_](https://user-images.githubusercontent.com/82531511/174498762-78eac739-5222-4c3f-be7e-dac0301d8ee9.gif)
+
 
 
     - (b) ERRO DE ENTRADA INVALIDA - CARACTERE NUMÉRICO; <br />
@@ -71,9 +73,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
 
-        ```
-            Entrada Invalida - Caractere Numerico encontrado. Digite novamente!!!
-        ```
+        ![e7432368-452a-4595-a558-d5e517427f61_](https://user-images.githubusercontent.com/82531511/174498821-8cf2a95f-0996-401c-9561-a2caed9d626c.gif)
+
     
 3. Autocomplete e Autocorrect
     - (a) VALIDAÇÃO DA IMPLEMENTAÇÃO DO AUTOCOMPLETE E AUTOCORRECT; <br />
@@ -83,50 +84,34 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): prep
         ```
         A saída esperada é:
-        ```
-            Autocomplete           | Autocorrect
-            PREPARACAO             | PARES
-            PREPARO                | PEREZ
-            PREPARAR               | PIRES
-            PREPARADO              | POREM
-            PREPARA                | PRECO
-            PREPARADOS             | PRESA
-            PREPARADA              | PRESO
-        ```
+        
+        ![bcf8b957-5fc3-47c4-b6aa-c2bb217d7083_](https://user-images.githubusercontent.com/82531511/174498929-116fe7f3-dc08-4aef-be53-15df55513e0b.gif)
+
 
         - (II) Teste 2:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): zar
         ```
         A saída esperada é:
-        ```
-            Autocomplete           | Autocorrect
-            >>> no match found <<< | >>> no match found <<<
-        ```
+        
+        ![d6bb9b62-0276-4f2e-9666-4bb7b7f0c8e5_](https://user-images.githubusercontent.com/82531511/174498980-b5eaf945-4412-456c-97d1-588778b57030.gif)
+
 
         - (III) Teste 3:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): lir
         ```
         A saída esperada é:
-        ```
-            Autocomplete           | Autocorrect
-            >>> no match found <<< | DIA
-        ```
+        
+        ![4aee947f-1cd2-4ed2-9c07-66ffcc67f2ba_](https://user-images.githubusercontent.com/82531511/174499034-932e090f-d7e3-43d2-86ca-1ce123109a93.gif)
+
+        
         - (IV) Teste 4:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ter
         ```
         A saída esperada é:
-        ```
-            Autocomplete           | Autocorrect
-            TERMOS                 | >>> no match found <<<
-            TERIA                  |
-            TERMO                  |
-            TERRAS                 |
-            TERRITORIO             |
-            TERCEIRA               |
-            TEREM                  |
-        ```
+        
+        ![a90f7314-eff7-4936-bfe7-b1c5aa3aacd6_](https://user-images.githubusercontent.com/82531511/174499101-6582a44b-71d2-47b3-b980-2042cabd3ef2.gif)
 
-
+        
