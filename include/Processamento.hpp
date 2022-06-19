@@ -21,7 +21,10 @@ class Processamento{
         void leitura_arquivo();
 
         /**
-         * ORDENAÇÃO DO AUTOCOMPLETE (ORDEM ALFABETICA)
+         * IMPLEMENTAÇÃO DE BUSCA BINÁRIA REALIZADA PELAS FUNÇÕES lower_bound() E upper_bound()
+         * PARA FAZER UM RECORTE NA BASE DE DADOS GERAL DE ACORDO COM A PALAVRA OU PREFIXO DADO
+         * @param prefixo PALAVRA OU PREFIXO DADO PELO USUÁRIO
+         * @return VETOR DE PARES CONTENDO AS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE 
          */
         std::vector<std::pair<int, std::string>> autocomplete(std::string prefixo);
 

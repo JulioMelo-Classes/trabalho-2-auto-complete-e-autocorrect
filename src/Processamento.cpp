@@ -35,7 +35,7 @@ vector<pair<int, string>> Processamento::autocomplete(string prefixo){
     vector<pair<int, string>> Acomp;
     int verif=0;
     sort(m_dados.begin(), m_dados.end(),
-            [] (const auto &x, const auto &y) {return x.second < y.second; });
+            [] (const auto &x, const auto &y) {return x.second < y.second; }); // ORDENAÇÃO DO AUTOCOMPLETE (ORDEM ALFABETICA)
     auto it1 = lower_bound(m_dados.begin(), m_dados.end(), prefixo,
                             [](pair<int, string> &s_v, string value){ return s_v.second < value;});
     auto it2 = upper_bound(m_dados.begin(), m_dados.end(), prefixo, 
@@ -60,7 +60,7 @@ vector<pair<int, string>> Processamento::autocomplete(string prefixo){
 vector<pair<int, string>> Processamento::autocorrect(int len_prefixo){
     vector<pair<int, string>> Acorr;
     sort(m_dados.begin(), m_dados.end(),
-            [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); });
+            [] (const auto &x, const auto &y) {return x.second.size() < y.second.size(); }); // ORDENAÇÃO DO AUTOCORRECT (TAMANHO DA STRING - ORDEM CRESCENTE)
     for(auto pp : m_dados){
         if((pp.second.size() == len_prefixo || pp.second.size() == len_prefixo+1)){
             Acorr.push_back(make_pair(pp.first, pp.second));
@@ -91,7 +91,7 @@ bool Processamento::validacao_arquivo(){
             palavra = line.substr(pos+1, -1);
             for(int pp=0; pp < (int)palavra.size(); pp++){
                 if(ispunct(palavra[pp]) && (palavra[pp] != '-')){
-                    cout << "Erro: Caractere especial encontrado, na linha: " << qnt_l << ", palavra/peso: " << palavra << endl;;
+                    cout << "Erro: Caractere Especial encontrado, na linha: " << qnt_l << ", palavra/peso: " << palavra << endl;;
                     return false;
                 } else if(stoi(freq) < 0){
                     cout << "Erro: Peso Negativo, na linha: " << qnt_l << ", palavra/peso: " << freq << endl;
@@ -114,7 +114,7 @@ bool Processamento::validacao_entrada(string entrada){
                 cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
                 return false;
             } else if(isdigit(entrada[ii])){
-                cout << "Entrada Invalida - Caractere numerico encontrado. Digite novamente!!!" << endl;
+                cout << "Entrada Invalida - Caractere Numérico encontrado. Digite novamente!!!" << endl;
                 return false;
             }
         }
