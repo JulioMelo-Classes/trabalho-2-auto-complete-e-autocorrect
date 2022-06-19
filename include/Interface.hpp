@@ -22,7 +22,7 @@ class Interface{
         void impressao_msg_inicial();
 
         /**
-         * IMPRIME A INTERFACE COM AS PALAVRAS EM POTÊNCIAL PARA O AUTOCOMPLETE E PARA O AUTOCORRECT
+         * IMPRIME A INTERFACE COM AS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE E PARA O AUTOCORRECT
          * @param dados_autocomplete REFERÊNCIA DA CLASSE AUTOCOMPLETE
          * @param dados_autocorrect REFERÊNCIA DA CLASSE AUTOCORRECT
          */

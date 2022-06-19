@@ -17,7 +17,7 @@ class Autocomplete{
         Autocomplete(std::string prefixo);
 
         /**
-         * PEGA DA BASE DE DADOS GERAL AS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE E ARMAZENA NO ATRIBUTO m_dados_com_prefixo
+         * ARMAZENA AS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE MAIS SIGNIFICATIVAS, OU SEJA, AS DE MAIOR PESO
          * @param p REFERÊNCIA DA CLASSE PROCESSAMENTO
          */ 
         void auto_complete(Processamento* p);

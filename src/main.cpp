@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
             entrada = inter.leitura_entrada();
             if(iscntrl(entrada[0])){
                 cout << endl;
-                exit(-1);
+                break;
             }
             while(true){
                 if(p->validacao_entrada(entrada)){

@@ -29,16 +29,19 @@ class Processamento{
         std::vector<std::pair<int, std::string>> autocomplete(std::string prefixo);
 
         /**
-         * ORDENAÇÃO DO AUTOCORRECT (TAMANHO DA STRING - ORDEM CRESCENTE)
+         * FILTRAGEM DA BASE DE DADOS GERAL, PEGANDO SOMENTE AS PALAVRAS QUE POSSUEM TAMANHO S OU S+1, EM QUE
+         * S É O TAMANHO DO PREFIXO OU PALAVRA DADA PELO USUÁRIO
+         * @param len_prefixo TAMANHO DO PREFIXO
+         * @return VETOR COM AS PALAVRAS DE TAMANHO S OU S+1 
          */
         std::vector<std::pair<int, std::string>> autocorrect(int len_prefixo);
 
         /**
-         * RECEBE A ENTRADA DADA PELO USUARIO NA LEITURA DA ENTRADA E VERIFICA CARACTERE A CARACTERE SE É VÁLIDA, OU SEJA,
+         * RECEBE A ENTRADA DADA PELO USUÁRIO NA LEITURA DA ENTRADA E VERIFICA CARACTERE A CARACTERE SE É VÁLIDA, OU SEJA,
          * 1° NÃO POSSUI CARACTERE ESPECIAL;
          * 2° NÃO É VAZIA;
          * 3° NÃO POSSUI NÚMEROS;
-         * @param entrada PREFIXO/PALAVRA DADO PELO USUÁRIO
+         * @param entrada PREFIXO/PALAVRA DADA PELO USUÁRIO
          */
         bool validacao_entrada(std::string entrada);
 
@@ -51,12 +54,6 @@ class Processamento{
          * @return UM VALOR LÓGICO INDICANDO SE A ENTRADA É VALIDA OU NÃO
          */
         bool validacao_arquivo();
-
-        /**
-         * GETTER DA BASE DE PALAVRAS GERAL DO PROGRAMA
-         * @return VETOR CONTENDO A BASE GERAL DE PALAVRAS E SEUS RESPECTIVOS PESOS
-         */
-        std::vector<std::pair<int, std::string>> get_dados();
 };
 
 #endif

@@ -105,24 +105,15 @@ bool Processamento::validacao_arquivo(){
 };
 
 bool Processamento::validacao_entrada(string entrada){
-    if(entrada.empty()){
-        cout << "Entrada Invalida - Palavra Vazia. Digite novamente!!!" << endl;
-        return false;
-    }else{
-        for(int ii=0; ii < (int)entrada.size(); ii++){
-            if(ispunct(entrada[ii]) && (entrada[ii] != '-')){
-                cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
-                return false;
-            } else if(isdigit(entrada[ii])){
-                cout << "Entrada Invalida - Caractere Numérico encontrado. Digite novamente!!!" << endl;
-                return false;
-            }
+    for(int ii=0; ii < (int)entrada.size(); ii++){
+        if(ispunct(entrada[ii]) && (entrada[ii] != '-')){
+            cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
+            return false;
+        } else if(isdigit(entrada[ii])){
+            cout << "Entrada Invalida - Caractere Numérico encontrado. Digite novamente!!!" << endl;
+            return false;
         }
     }
     return true;
-};
-
-vector<pair<int, string>> Processamento::get_dados(){
-    return m_dados;
 };
 
