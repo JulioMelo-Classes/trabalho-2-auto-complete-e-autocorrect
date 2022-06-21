@@ -27,7 +27,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-         ![68f1b22b-a37a-4eba-b00b-93d05fdab611_](https://user-images.githubusercontent.com/82531511/174498117-662ee297-b44f-4164-8fce-959f97029113.gif)
+        ![f8b07524-5369-433f-9ea0-1a2c18f59134_](https://user-images.githubusercontent.com/82531511/174893542-e952489e-af22-491f-8f7d-24559b22ab9e.gif)
+
 
 
     - (b) ERRO DE CARACTERE ESPECIAL; <br />
@@ -37,7 +38,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![ad23f461-e6a2-4b21-bd4e-ed1a32ed6150_](https://user-images.githubusercontent.com/82531511/174498268-388298ae-0f56-4336-8ce1-ae2af1678fed.gif)
+        ![82a1b69d-63ee-41c9-8b6b-512a9cf91fb3_](https://user-images.githubusercontent.com/82531511/174893937-d9ab4a91-a813-416b-90b6-096ce92365df.gif)
+
 
 
     - (c) ERRO DE PESO NEGATIVO; <br />
@@ -47,7 +49,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![936dc55e-0996-49e6-8d60-4a9113146ea2_](https://user-images.githubusercontent.com/82531511/174498364-26f4bd6e-365b-46bc-959b-a82b6781de85.gif)
+        ![c5b4e220-2f06-4843-adee-2154062dc9ff_](https://user-images.githubusercontent.com/82531511/174894295-5b749c7d-5a8e-4f50-9693-7b5583376490.gif)
+
 
 
 2. Entrada:  
@@ -58,7 +61,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
 
-        ![c765f4dd-9d9a-4fe6-8987-b60ec8789725_](https://user-images.githubusercontent.com/82531511/174498762-78eac739-5222-4c3f-be7e-dac0301d8ee9.gif)
+        ![01f902c8-0c2e-481a-9a7c-76d4f026a0ee_](https://user-images.githubusercontent.com/82531511/174894779-cfa48c31-ad13-420f-adae-91960e703b19.gif)
 
 
 
@@ -69,7 +72,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
 
-        ![e7432368-452a-4595-a558-d5e517427f61_](https://user-images.githubusercontent.com/82531511/174498821-8cf2a95f-0996-401c-9561-a2caed9d626c.gif)
+        ![6fc4c1ba-c19b-4676-a117-d19932fc32f3_](https://user-images.githubusercontent.com/82531511/174895934-05f81d11-b7cd-43ba-8c39-977d84726fdc.gif)
+
 
     
 3. Autocomplete e Autocorrect
@@ -81,7 +85,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![bcf8b957-5fc3-47c4-b6aa-c2bb217d7083_](https://user-images.githubusercontent.com/82531511/174498929-116fe7f3-dc08-4aef-be53-15df55513e0b.gif)
+        ![8eb0c2f4-dfb7-40e8-9444-396a658ec51f_](https://user-images.githubusercontent.com/82531511/174896868-81786cbc-c93e-4c36-9c6c-2bdd13049907.gif)
+
 
 
         - (II) Teste 2:
@@ -90,7 +95,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![d6bb9b62-0276-4f2e-9666-4bb7b7f0c8e5_](https://user-images.githubusercontent.com/82531511/174498980-b5eaf945-4412-456c-97d1-588778b57030.gif)
+        ![64a3c6ab-9e15-433b-b069-bbd35314d6b8_](https://user-images.githubusercontent.com/82531511/174897577-3a550203-be41-4ef0-a22e-39e6a7ddcaeb.gif)
+
 
 
         - (III) Teste 3:
@@ -99,7 +105,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![4aee947f-1cd2-4ed2-9c07-66ffcc67f2ba_](https://user-images.githubusercontent.com/82531511/174499034-932e090f-d7e3-43d2-86ca-1ce123109a93.gif)
+        ![a10e39ac-3e2c-4814-b505-bfa3e69b84f5_](https://user-images.githubusercontent.com/82531511/174897801-5c9c9a98-2b6d-4ff2-a9ce-78adc63b5908.gif)
+
 
         
         - (IV) Teste 4:
@@ -108,6 +115,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![a90f7314-eff7-4936-bfe7-b1c5aa3aacd6_](https://user-images.githubusercontent.com/82531511/174499101-6582a44b-71d2-47b3-b980-2042cabd3ef2.gif)
+        ![d9efe31d-75f6-4485-bfba-c09a453e3029_](https://user-images.githubusercontent.com/82531511/174898020-cf848f61-4722-4815-9085-f881298f8ab7.gif)
+
 
         
