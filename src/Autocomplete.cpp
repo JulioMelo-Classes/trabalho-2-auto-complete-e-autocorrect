@@ -13,23 +13,26 @@ Autocomplete::Autocomplete(string pre){
 };
 
 void Autocomplete::auto_complete(Processamento* p){
-    int N;
     vector<pair<int, string>> Acomp;
     Acomp = p->autocomplete(m_prefixo);
     sort(Acomp.begin(), Acomp.end());
     reverse(Acomp.begin(), Acomp.end());
-    if(!Acomp.empty()){
-        if(Acomp.size() < 10){
-            N = Acomp.size();   
+    m_dados_autocomplete = Acomp;
+};
+
+std::vector<std::pair<int, std::string>> Autocomplete::dados_autocomplete_interface(){
+    std::vector<std::pair<int, std::string>> dados;
+    int N;
+    cout << m_dados_autocomplete.size() << endl;
+    if(!m_dados_autocomplete.empty()){
+        if(m_dados_autocomplete.size() < 10){
+            N = m_dados_autocomplete.size();   
         }else{
             N = 7;
         }
         for(int tt=0; tt < N; tt++){
-            m_dados_autocomplete.push_back(make_pair(Acomp[tt].first, Acomp[tt].second));
+            dados.push_back(make_pair(m_dados_autocomplete[tt].first, m_dados_autocomplete[tt].second));
         } 
     }
-};
-
-std::vector<std::pair<int, std::string>> Autocomplete::get_dados_autocomplete(){
-    return m_dados_autocomplete;
+    return dados;
 };

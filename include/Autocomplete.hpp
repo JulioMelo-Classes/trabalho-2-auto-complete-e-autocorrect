@@ -23,10 +23,10 @@ class Autocomplete{
         void auto_complete(Processamento* p);
 
         /**
-         * GETTER DAS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE
-         * @return VETOR CONTENDO AS PALAVRAS DO AUTOCOMPLETE
+         * EXTRAI AS PALAVRAS MAIS SIGINIFCATIVAS DO VETOR DE PARES COM TODAS AS PALAVRAS EM POTENCIAL PARA O AUTOCOMPLETE
+         * @return VETOR CONTENDO AS PALAVRAS MAIS SIGNIFICATIVAS (COM OS MAIORES PESOS) DO AUTOCOMPLETE
          */
-        std::vector<std::pair<int, std::string>> get_dados_autocomplete();
+        std::vector<std::pair<int, std::string>> dados_autocomplete_interface();
 
 
 };

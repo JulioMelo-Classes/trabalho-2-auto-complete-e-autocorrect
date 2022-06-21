@@ -34,10 +34,10 @@ class Autocorrect{
         int dist_levenshtein(std::string str1, std::string str2, int len_str1, int len_str2);
 
         /**
-         * GETTER DAS PALAVRAS EM POTENCIAL PARA O AUTOCORRECT
-         * @return VETOR CONTENDO AS PALAVRAS DO AUTOCORRECT
+         * EXTRAI AS PALAVRAS MAIS SIGINIFCATIVAS DO VETOR DE PARES COM TODAS AS PALAVRAS EM POTENCIAL PARA O AUTOCORRECT
+         * @return VETOR CONTENDO AS PALAVRAS MAIS SIGNIFICATIVAS (COM AS MENORES DISTÂNCIAS DE EDIÇÃO) DO AUTOCORRECT
          */
-        std::vector<std::pair<int, std::string>> get_dados_correct();
+        std::vector<std::pair<int, std::string>> dados_correct_interface();
 };
 
 #endif

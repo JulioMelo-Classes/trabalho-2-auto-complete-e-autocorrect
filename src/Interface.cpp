@@ -11,11 +11,13 @@
 using namespace std;
 
 void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocorrect *dados2){
+    std::vector<std::pair<int, std::string>> dadosAcomp = dados1->dados_autocomplete_interface();
+    std::vector<std::pair<int, std::string>> dadosAcorr = dados2->dados_correct_interface();
     string maior1 = ">>> no match found <<<";
     string str1 = "Autocomplete";
     string str2 = " Autocorrect";
     string msg1 = ">>> no match found <<<";
-    for(auto qq : dados1->get_dados_autocomplete()){
+    for(auto qq : dadosAcomp){
         if(qq.second.size() > maior1.size()){
             maior1 = qq.second;
         }
@@ -25,59 +27,59 @@ void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocor
     cout << str1 << setw((maior1.size() - str1.size())+2) << "|" << str2 << endl;
     cout << setw(str1.size() + (maior1.size() - str1.size())+2) << setfill('-') << "+" << setw(str2.size()+2) << setfill('-') << "-" << endl;
     cout << setfill(' ');
-    if(dados1->get_dados_autocomplete().empty() && dados2->get_dados_correct().empty()){
+    if(dadosAcomp.empty() && dadosAcorr.empty()){
         cout << msg1 << setw((maior1.size() - msg1.size())+2) << "|" << " " << msg1 << endl;
-    } else if(dados1->get_dados_autocomplete().empty()){
-        for(int ii=0;  ii < dados2->get_dados_correct().size(); ii++){
+    } else if(dadosAcomp.empty()){
+        for(int ii=0;  ii < dadosAcorr.size(); ii++){
             if(ii==0){
                 cout << msg1 << setw((maior1.size() - msg1.size())+2) 
-                     << "|" << " " << dados2->get_dados_correct()[0].second << endl;
+                     << "|" << " " << dadosAcorr[0].second << endl;
             } else{
                 cout << setw(msg1.size() + (maior1.size() - msg1.size())+2) << "|" << " "
-                     << dados2->get_dados_correct()[ii].second << endl;
+                     << dadosAcorr[ii].second << endl;
             }
         }
-    } else if(dados2->get_dados_correct().empty()){
-        for(int ii=0;  ii < dados1->get_dados_autocomplete().size(); ii++){
+    } else if(dadosAcorr.empty()){
+        for(int ii=0;  ii < dadosAcomp.size(); ii++){
             if(ii==0){
-                cout << dados1->get_dados_autocomplete()[ii].second 
-                     << setw((maior1.size() - dados1->get_dados_autocomplete()[ii].second.size())+2) << "|" << " " << msg1 << endl;
+                cout << dadosAcomp[ii].second 
+                     << setw((maior1.size() - dadosAcomp[ii].second.size())+2) << "|" << " " << msg1 << endl;
             } else{
-                cout << dados1->get_dados_autocomplete()[ii].second 
-                     << setw((maior1.size() - dados1->get_dados_autocomplete()[ii].second.size())+2) << "|" << endl;
+                cout << dadosAcomp[ii].second 
+                     << setw((maior1.size() - dadosAcomp[ii].second.size())+2) << "|" << endl;
             }
         }
     } else{
         int count1=0, count2=0;
-        while(count1 != dados1->get_dados_autocomplete().size() && count2 != dados2->get_dados_correct().size()){
-            if(dados1->get_dados_autocomplete().size() == dados2->get_dados_correct().size()){
-                cout << dados1->get_dados_autocomplete()[count1].second 
-                     << setw(maior1.size() - dados1->get_dados_autocomplete()[count1].second.size()+2) << "|" << " " 
-                     << dados2->get_dados_correct()[count2].second << endl;
+        while(count1 != dadosAcomp.size() && count2 != dadosAcorr.size()){
+            if(dadosAcomp.size() == dadosAcorr.size()){
+                cout << dadosAcomp[count1].second 
+                     << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
+                     << dadosAcorr[count2].second << endl;
                 count1++;
                 count2++;
-            } else if(dados1->get_dados_autocomplete().size() > dados2->get_dados_correct().size()){
-                if(count1 <= dados2->get_dados_correct().size()){
-                    cout << dados1->get_dados_autocomplete()[count1].second 
-                         << setw(maior1.size() - dados1->get_dados_autocomplete()[count1].second.size()+2) << "|" << " " 
-                         << dados2->get_dados_correct()[count2].second << endl;
+            } else if(dadosAcomp.size() > dadosAcorr.size()){
+                if(count1 <= dadosAcorr.size()){
+                    cout << dadosAcomp[count1].second 
+                         << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
+                         << dadosAcorr[count2].second << endl;
                     count1++;
                     count2++;
                 } else{
-                    cout << dados1->get_dados_autocomplete()[count1].second 
-                         << setw(maior1.size() - dados1->get_dados_autocomplete()[count1].second.size()+2) << "|" << " " << endl;
+                    cout << dadosAcomp[count1].second 
+                         << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " << endl;
                     count1++;
                 }
-            } else if(dados1->get_dados_autocomplete().size() < dados2->get_dados_correct().size()){
-                if(count2 <= dados1->get_dados_autocomplete().size()){
-                    cout << dados1->get_dados_autocomplete()[count1].second 
-                         << setw(maior1.size() - dados1->get_dados_autocomplete()[count1].second.size()+2) << "|" << " " 
-                         << dados2->get_dados_correct()[count2].second << endl;
+            } else if(dadosAcomp.size() < dadosAcorr.size()){
+                if(count2 <= dadosAcomp.size()){
+                    cout << dadosAcomp[count1].second 
+                         << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
+                         << dadosAcorr[count2].second << endl;
                     count1++;
                     count2++;
                 } else{
                     cout << setw(msg1.size() + (maior1.size() - msg1.size())+2) << "|" << " " 
-                         << dados2->get_dados_correct()[count2].second << endl;
+                         << dadosAcorr[count2].second << endl;
                     count2++;
                 }
             }

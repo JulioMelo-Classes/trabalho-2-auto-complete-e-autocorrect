@@ -14,31 +14,13 @@ vector
 Processamento.hpp
 ../include/Processamento.hpp
 
-../include/Autocorrect.hpp
-iostream
--
-vector
--
-Processamento.hpp
-../include/Processamento.hpp
-
-../include/Interface.hpp
-iostream
--
-vector
--
-Autocomplete.hpp
-../include/Autocomplete.hpp
-Autocorrect.hpp
-../include/Autocorrect.hpp
-
 ../include/Processamento.hpp
 iostream
 -
 vector
 -
 
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/main.cpp
+/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.cpp
 iostream
 -
 iterator
@@ -47,14 +29,10 @@ algorithm
 -
 cctype
 -
-iomanip
+fstream
 -
-Processamento.hpp
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Processamento.hpp
+vector
+-
 Autocomplete.hpp
 /root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocomplete.hpp
-Interface.hpp
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Interface.hpp
-Autocorrect.hpp
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/src/Autocorrect.hpp
 

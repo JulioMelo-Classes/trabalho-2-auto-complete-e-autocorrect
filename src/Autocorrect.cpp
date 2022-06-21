@@ -36,32 +36,34 @@ void Autocorrect::auto_correct(Processamento* p, string prefixo){
     for(auto pp : Acorr){
         dist_ed = dist_levenshtein(prefixo, pp.second, prefixo.length(), pp.second.length());
         if(dist_ed < m_len_prefixo){
-            for(auto qq : C_dis_ed){ // VERIFICA SE A PALAVRA JÁ ESTÁ NO VETOR, PARA NÃO DAR PUSH EM PALAVRA REPETIDA
+            for(auto qq : m_dados_correct){ // VERIFICA SE A PALAVRA JÁ ESTÁ NO VETOR, PARA NÃO DAR PUSH EM PALAVRA REPETIDA
                 if(pp.second == qq.second){
                     verif = 1;
                     break;
                 }
             }
             if(verif != 1){
-                C_dis_ed.push_back(make_pair(dist_ed, pp.second));
+                m_dados_correct.push_back(make_pair(dist_ed, pp.second));
             }
             verif=0;
         }
         dist_ed=0;
     }
-    sort(C_dis_ed.begin(), C_dis_ed.end());
-    if(!C_dis_ed.empty()){
-        if(C_dis_ed.size() < 10){
-            N = C_dis_ed.size();   
+    sort(m_dados_correct.begin(), m_dados_correct.end());
+};
+
+std::vector<std::pair<int, std::string>> Autocorrect::dados_correct_interface(){
+    std::vector<std::pair<int, std::string>> dados;
+    int N;
+    if(!m_dados_correct.empty()){
+        if(m_dados_correct.size() < 7){
+            N = m_dados_correct.size();   
         }else{
             N = 7;
         }
         for(int tt=0; tt < N; tt++){
-            m_dados_correct.push_back(make_pair(C_dis_ed[tt].first, C_dis_ed[tt].second));
+            dados.push_back(make_pair(m_dados_correct[tt].first, m_dados_correct[tt].second));
         } 
     }
-};
-
-std::vector<std::pair<int, std::string>> Autocorrect::get_dados_correct(){
-    return m_dados_correct;
+    return dados;
 };
