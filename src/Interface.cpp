@@ -88,7 +88,10 @@ void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocor
 };
 
 string Interface::leitura_entrada(){
-    getline(cin, m_entrada);
+    if(!getline(cin, m_entrada)){
+        cout << endl;
+        exit(-1);
+    }
     for(int ii=0; ii < m_entrada.size(); ii++){
         m_entrada[ii] = toupper(m_entrada[ii]);
     }

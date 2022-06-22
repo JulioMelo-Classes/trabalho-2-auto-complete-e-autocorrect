@@ -23,7 +23,6 @@ void Autocomplete::auto_complete(Processamento* p){
 std::vector<std::pair<int, std::string>> Autocomplete::dados_autocomplete_interface(){
     std::vector<std::pair<int, std::string>> dados;
     int N;
-    cout << m_dados_autocomplete.size() << endl;
     if(!m_dados_autocomplete.empty()){
         if(m_dados_autocomplete.size() < 10){
             N = m_dados_autocomplete.size();   

@@ -91,7 +91,7 @@ bool Processamento::validacao_arquivo(){
             palavra = line.substr(pos+1, -1);
             for(int pp=0; pp < (int)palavra.size(); pp++){
                 if(ispunct(palavra[pp]) && (palavra[pp] != '-')){
-                    cout << "Erro: Caractere Especial encontrado, na linha: " << qnt_l << ", palavra/peso: " << palavra << endl;;
+                    cout << "Erro: Caractere Especial encontrado, na linha: " << qnt_l << ", palavra/peso: " << palavra << endl;
                     return false;
                 } else if(stoi(freq) < 0){
                     cout << "Erro: Peso Negativo, na linha: " << qnt_l << ", palavra/peso: " << freq << endl;
@@ -105,15 +105,21 @@ bool Processamento::validacao_arquivo(){
 };
 
 bool Processamento::validacao_entrada(string entrada){
-    for(int ii=0; ii < (int)entrada.size(); ii++){
-        if(ispunct(entrada[ii]) && (entrada[ii] != '-')){
-            cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
-            return false;
-        } else if(isdigit(entrada[ii])){
-            cout << "Entrada Invalida - Caractere Numérico encontrado. Digite novamente!!!" << endl;
-            return false;
+    if(entrada.empty()){
+        cout << "Entrada Invalida - Palavra Vazia. Digite Novamente!!!" << endl;
+        return false;
+    } else{
+        for(int ii=0; ii < (int)entrada.size(); ii++){
+            if(ispunct(entrada[ii]) && (entrada[ii] != '-')){
+                cout << "Entrada Invalida - Caractere Especial encontrado. Digite novamente!!!" << endl;
+                return false;
+            } else if(isdigit(entrada[ii])){
+                cout << "Entrada Invalida - Caractere Numérico encontrado. Digite novamente!!!" << endl;
+                return false;
+            }
         }
     }
+    
     return true;
 };
 

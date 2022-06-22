@@ -25,20 +25,12 @@ int main(int argc, char *argv[]){
         while(true){
             inter.impressao_msg_inicial();
             entrada = inter.leitura_entrada();
-            if(iscntrl(entrada[0])){
-                cout << endl;
-                break;
-            }
             while(true){
                 if(p->validacao_entrada(entrada)){
                     break;
                 }else{
                     inter.impressao_msg_inicial();
                     entrada = inter.leitura_entrada();
-                    if(iscntrl(entrada[0])){
-                        cout << endl;
-                        exit(-1);
-                    }
                 }
             }
             Acomp = new Autocomplete(entrada);

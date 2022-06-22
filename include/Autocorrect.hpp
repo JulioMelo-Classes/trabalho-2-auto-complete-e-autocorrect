@@ -6,8 +6,8 @@
 #include "Processamento.hpp"
 class Autocorrect{
     private:
-        std::vector<std::pair<int, std::string>> m_dados_correct;
-        int m_len_prefixo;
+        std::vector<std::pair<int, std::string>> m_dados_correct; //<! VETOR CONTENDO OS DADOS DO AUTOCORRECT
+        int m_len_prefixo;  //<! TAMANHO DO PREFIXO DADO PELO USUÁRIO
     public:
         /**
          * CRIA UM CONSTRUTOR AUTOCORRECT QUE RECEBE O TAMANHO DO PREFIXO/PALAVRA DADO PELO USUÁRIO 

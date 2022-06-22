@@ -6,8 +6,8 @@
 
 class Processamento{
     private:
-        std::string m_palavras_ptbr;
-        std::vector<std::pair<int, std::string>> m_dados;
+        std::string m_palavras_ptbr; //<! NOME DO ARQUIVO QUE CONTEM A BASE DE PALAVRAS 
+        std::vector<std::pair<int, std::string>> m_dados; //<! VETOR DE PARES CONTENDO A BASE DE PALAVRAS
     public:
         /**
          * CRIA UM CONSTRUTOR PROCESSAMENTO QUE RECEBE O NOME DO ARQUIVO COM A BASE DE PALAVRAS 
@@ -39,8 +39,8 @@ class Processamento{
         /**
          * RECEBE A ENTRADA DADA PELO USUÁRIO NA LEITURA DA ENTRADA E VERIFICA CARACTERE A CARACTERE SE É VÁLIDA, OU SEJA,
          * 1° NÃO POSSUI CARACTERE ESPECIAL;
-         * 2° NÃO É VAZIA;
-         * 3° NÃO POSSUI NÚMEROS;
+         * 2° NÃO POSSUI NÚMEROS;
+         * 3° NÃO É VAZIA;
          * @param entrada PREFIXO/PALAVRA DADA PELO USUÁRIO
          */
         bool validacao_entrada(std::string entrada);

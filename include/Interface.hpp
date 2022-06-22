@@ -8,7 +8,7 @@
 
 class Interface{
     private:
-        std::string m_entrada;
+        std::string m_entrada; //<! PREFIXO DADO PELO USUÁRIO
     public:
         /**
          * FUNÇÃO QUE REALIZA A LEITURA DA ENTRADA (LEITURA DO PREFIXO OU PALAVRA)

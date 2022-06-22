@@ -27,8 +27,6 @@ class Autocomplete{
          * @return VETOR CONTENDO AS PALAVRAS MAIS SIGNIFICATIVAS (COM OS MAIORES PESOS) DO AUTOCOMPLETE
          */
         std::vector<std::pair<int, std::string>> dados_autocomplete_interface();
-
-
 };
 
 #endif
