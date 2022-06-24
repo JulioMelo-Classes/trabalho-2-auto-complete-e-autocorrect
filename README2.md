@@ -71,12 +71,14 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ![6fc4c1ba-c19b-4676-a117-d19932fc32f3_](https://user-images.githubusercontent.com/82531511/174895934-05f81d11-b7cd-43ba-8c39-977d84726fdc.gif)
     
 
-    -(c) ERRO DE ENTRADA INVALIDA - PALAVRA VAZIA; <br />
+    - (c) ERRO DE ENTRADA INVALIDA - PALAVRA VAZIA; <br />
         Para testar o erro "Palavra Vazia", tecle ENTER na entrada de dados:
         ```
             >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar):
         ```
         A saída esperada é:
+        
+        ![videooo_](https://user-images.githubusercontent.com/82531511/175665682-c0366e31-13fd-43d5-a23b-5235871de724.gif)
 
     
 3. Autocomplete e Autocorrect
