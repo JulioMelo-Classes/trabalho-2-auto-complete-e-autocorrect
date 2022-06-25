@@ -24,7 +24,7 @@ std::vector<std::pair<int, std::string>> Autocomplete::dados_autocomplete_interf
     std::vector<std::pair<int, std::string>> dados;
     int N;
     if(!m_dados_autocomplete.empty()){
-        if(m_dados_autocomplete.size() < 10){
+        if(m_dados_autocomplete.size() < 7){
             N = m_dados_autocomplete.size();   
         }else{
             N = 7;

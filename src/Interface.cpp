@@ -11,8 +11,8 @@
 using namespace std;
 
 void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocorrect *dados2){
-    std::vector<std::pair<int, std::string>> dadosAcomp = dados1->dados_autocomplete_interface();
-    std::vector<std::pair<int, std::string>> dadosAcorr = dados2->dados_correct_interface();
+    vector<pair<int, string>> dadosAcomp = dados1->dados_autocomplete_interface();
+    vector<pair<int, string>> dadosAcorr = dados2->dados_correct_interface();
     string maior1 = ">>> no match found <<<";
     string str1 = "Autocomplete";
     string str2 = " Autocorrect";
@@ -51,37 +51,37 @@ void Interface::impressao_autocomplete_autocorrect(Autocomplete* dados1, Autocor
         }
     } else{
         int count1=0, count2=0;
-        while(count1 != dadosAcomp.size() && count2 != dadosAcorr.size()){
+        while(count1 <= dadosAcomp.size() && count2 <= dadosAcorr.size()){
             if(dadosAcomp.size() == dadosAcorr.size()){
-                cout << dadosAcomp[count1].second 
-                     << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
-                     << dadosAcorr[count2].second << endl;
+                if(count1 < dadosAcomp.size()){
+                    cout << dadosAcomp[count1].second 
+                         << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
+                         << dadosAcorr[count2].second << endl;
+                }
                 count1++;
                 count2++;
             } else if(dadosAcomp.size() > dadosAcorr.size()){
-                if(count1 <= dadosAcorr.size()){
+                if(count2 < dadosAcorr.size()){
                     cout << dadosAcomp[count1].second 
                          << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
                          << dadosAcorr[count2].second << endl;
-                    count1++;
                     count2++;
-                } else{
+                } else if(count1 < dadosAcomp.size()){
                     cout << dadosAcomp[count1].second 
                          << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " << endl;
-                    count1++;
                 }
+                count1++;
             } else if(dadosAcomp.size() < dadosAcorr.size()){
-                if(count2 <= dadosAcomp.size()){
+                if(count1 < dadosAcomp.size()){
                     cout << dadosAcomp[count1].second 
                          << setw(maior1.size() - dadosAcomp[count1].second.size()+2) << "|" << " " 
                          << dadosAcorr[count2].second << endl;
                     count1++;
-                    count2++;
-                } else{
+                } else if(count2 < dadosAcorr.size()){
                     cout << setw(msg1.size() + (maior1.size() - msg1.size())+2) << "|" << " " 
                          << dadosAcorr[count2].second << endl;
-                    count2++;
                 }
+                count2++;
             }
         }
     }

@@ -119,7 +119,5 @@ bool Processamento::validacao_entrada(string entrada){
             }
         }
     }
-    
     return true;
 };
-
