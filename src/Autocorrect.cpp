@@ -36,7 +36,7 @@ void Autocorrect::auto_correct(Processamento* p, string prefixo){
     for(auto pp : Acorr){
         dist_ed = dist_levenshtein(prefixo, pp.second, prefixo.length(), pp.second.length());
         if(dist_ed < m_len_prefixo){
-            for(auto qq : m_dados_correct){ // VERIFICA SE A PALAVRA JÁ ESTÁ NO VETOR, PARA NÃO DAR PUSH EM PALAVRA REPETIDA
+            for(auto qq : m_dados_correct){
                 if(pp.second == qq.second){
                     verif = 1;
                     break;
