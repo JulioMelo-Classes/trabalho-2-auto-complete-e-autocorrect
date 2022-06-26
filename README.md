@@ -4,7 +4,7 @@
 # Introdução ao Autocomplete e Autocorrect
 * O Autocomplete é um recurso utilizado para completar a palavra de forma automática ou estática, a partir do prefixo digitado pelo usuário. No projeto, a ferramenta foi desenvolvida por meio da implementação de uma busca binária para buscar as palavras que iniciam com o prefixo, independente de seu tamanho em relação ao do prefixo, e assim reunir as palavras em potencial para completar o prefixo.
 
-* O Autocorrect é um recurso utilizado para correção de erros ortográficos ou de digitação de forma automática ou estática, a partir do prefixo digitado pelo usuário. No projeto, a ferramenta foi desenvolvida por meio da implementação de uma busca sequencial para buscar as palavras que tenham tamanho igual ou próximo ao do prefixo e usa o algoritmo da distância de edição (Distância de Levenshtein) para assim reunir as palavras em potencial para a correção.
+* O Autocorrect é um recurso utilizado para correção de erros ortográficos ou de digitação de forma automática ou estática, a partir do prefixo digitado pelo usuário. No projeto, a ferramenta foi desenvolvida por meio da implementação de uma busca sequencial para buscar as palavras que tenham tamanho igual ou próximo ao do prefixo e da utilização do algoritmo da distância de edição (Distância de Levenshtein) para reunir as palavras em potencial para a correção.
 
 # Processo de Compilação e Execução do Programa
 * Pré-Requisitos:
