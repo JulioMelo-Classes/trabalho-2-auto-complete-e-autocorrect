@@ -87,7 +87,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         Para testar o funcionamento do Autocomplete e Autocorrect, digite na entrada de dados:
         - (I) Teste 1:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): prep
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): prep
             ```
             A saída esperada é:
         
@@ -96,7 +96,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
 
         - (II) Teste 2:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): zar
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): zar
             ```
             A saída esperada é:
         
@@ -105,7 +105,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
 
         - (III) Teste 3:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): lir
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): lir
             ```
             A saída esperada é:
         
@@ -114,7 +114,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         
         - (IV) Teste 4:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ter
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): ter
             ```
             A saída esperada é:
         
@@ -123,7 +123,7 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         
         - (V) Teste 5:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): livr
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): livr
             ```
             A saída esperada é:
         
@@ -132,10 +132,8 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         
         - (VI) Teste 6:
             ```
-                >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): rat
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): rat
             ```
             A saída esperada é:
         
             ![vd3_](https://user-images.githubusercontent.com/82531511/175817045-79abf8fc-3436-43e8-a9f6-e13ed07bc03d.gif)
-        
-        
