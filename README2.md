@@ -117,7 +117,24 @@ Para fazer a compilação (criação do executável) e executar o arquivo .exe c
         ```
         A saída esperada é:
         
-        ![d9efe31d-75f6-4485-bfba-c09a453e3029_](https://user-images.githubusercontent.com/82531511/174898020-cf848f61-4722-4815-9085-f881298f8ab7.gif)
+        ![vd1_](https://user-images.githubusercontent.com/82531511/175816957-ab34337e-e92a-4f76-9787-d77a2014a47d.gif)
 
-
+        
+        - (V) Teste 5:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): livr
+        ```
+        A saída esperada é:
+        
+        ![vd2_](https://user-images.githubusercontent.com/82531511/175816987-7d114fd2-9a4a-4bdd-b7bc-c0a7cb5eca9a.gif)
+        
+        
+        - (VI) Teste 6:
+        ```
+            >>> Digite uma palavra ou parte dela e digite ENTER (pressione Ctrl + D para finalizar): rat
+        ```
+        A saída esperada é:
+        
+        ![vd3_](https://user-images.githubusercontent.com/82531511/175817045-79abf8fc-3436-43e8-a9f6-e13ed07bc03d.gif)
+        
         
