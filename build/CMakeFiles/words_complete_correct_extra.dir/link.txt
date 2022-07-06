@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/words_complete_correct_extra.dir/src/main_ncurses.cpp.o  -o words_complete_correct_extra  ncurses/lib/libncurses.a 

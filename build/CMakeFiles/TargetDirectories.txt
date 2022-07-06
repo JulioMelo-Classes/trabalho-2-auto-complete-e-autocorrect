@@ -1,5 +1,0 @@
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/rebuild_cache.dir
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/edit_cache.dir
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct.dir
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/words_complete_correct_extra.dir
-/root/trabalho-2-auto-complete-e-autocorrect-Bianca-Mirtes/build/CMakeFiles/libncurses.dir

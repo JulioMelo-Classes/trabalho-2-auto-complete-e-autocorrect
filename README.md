@@ -1,3 +1,33 @@
+# Avaliação
+
+## Geral
+
+G1. Implementção e Uso das Classes Especificadas | 10/10 pontos
+- Observações:
+
+G2. Implementação da Interface textual Especificada | 10/10 pontos
+- Observações:
+
+G3. Implementação da solução de auto complete | 10/10 pontos
+- Observações:
+
+G4. Implementação da solução de auto correct | 10/10 pontos
+- Observações: Aqui vi que vocês usaram a forma recursiva da distancia de edição, depois sugiro que dêem uma olhada na versão iterativa!
+
+G5. Método de validação das implementações | 10/10 pontos
+- Observações: Embora fazer vídeo dê mais trabalho, o resultado final na documentação fica ótimo não é? Bom trabalho!
+
+## Código
+
+C1. Documentação do código e readme | 10/10 pontos
+- Observações: ok!
+
+C2. Organização e indentação do código | 10/10 pontos
+- Observações: ok!
+
+C3. Compilação automatizada (obrigatória) | ok
+- Observações:
+
 # Trabalho-2-Autocomplete-e-Autocorrect
 * Repositório destinado ao Trabalho II de Linguagem de Programação I, disciplina ministrada no semestre 2022.1.
 
